@@ -158,16 +158,26 @@ class GlosarioManager {
             'caridade': 'caridad'
         };
 
-        // Evitar reprocesar enlaces ya creados
-        if (html.includes('glossary-link')) return;
-
-        // Procesar términos largos primero (evitar parciales)
+        // Procesar términos largos primero (evitar parciales:
+        // "Jesucristo" / "Jesus Christ" antes que "Cristo" / "Christ")
         const terms = Object.keys(termMap).sort((a, b) => b.length - a.length);
         for (const term of terms) {
             const filename = termMap[term];
             const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
             const regex = new RegExp(`(?<![\\wáéíóúüñÁÉÍÓÚÜÑ])${escaped}(?![\\wáéíóúüñÁÉÍÓÚÜÑ])`, 'gi');
-            html = html.replace(regex, (match) => {
+            html = html.replace(regex, (match, offset, full) => {
+                // No enlazar si ya estamos dentro de un glossary-link
+                // (evita que "cristo" reaparezca dentro de "Jesucristo" ya enlazado)
+                const before = full.slice(0, offset);
+                const openIdx = before.lastIndexOf('<span class="glossary-link"');
+                const closeIdx = before.lastIndexOf('</span>');
+                if (openIdx > closeIdx) return match;
+
+                // No enlazar dentro de atributos/etiquetas HTML
+                const lastLt = before.lastIndexOf('<');
+                const lastGt = before.lastIndexOf('>');
+                if (lastLt > lastGt) return match;
+
                 return `<span class="glossary-link" data-term="${filename}">${match}</span>`;
             });
         }

@@ -1,13 +1,13 @@
 # Bendición
 
 ## Definición
-Una **bendición** en el contexto de La Iglesia de Jesucristo de los Santos de los Últimos Días es una ordenanza sagrada o una declaración de fe pronunciada por alguien que posee la autoridad del **[sacerdocio](sacerdocio)** para invocar las bendiciones del cielo sobre una persona.
+Una **bendición** en el contexto de La Iglesia de Jesucristo de los Santos de los Últimos Días es una ordenanza sagrada o una declaración de fe pronunciada por alguien que posee la autoridad del sacerdocio para invocar las bendiciones del cielo sobre una persona.
 
 ## Tipos principales de bendiciones
 
 ### 1. **Bendiciones de salud**
 - Administradas a los enfermos o afligidos
-- Requieren dos **[portadores del sacerdocio](sacerdocio)**
+- Requieren dos portadores del sacerdocio
 - Incluyen la unción con aceite consagrado y la imposición de manos
 - Buscan sanación física, emocional o espiritual según la voluntad de Dios
 
@@ -15,7 +15,7 @@ Una **bendición** en el contexto de La Iglesia de Jesucristo de los Santos de l
 - Dadas por un patriarca ordenado
 - Proporcionan guía personal y promesas para la vida
 - Declaran el linaje de la casa de Israel
-- Se consideran **[escritura](leer-las-escrituras)** personal
+- Se consideran escritura personal
 
 ### 3. **Bendiciones de consuelo**
 - Ofrecidas en momentos de necesidad
@@ -31,7 +31,7 @@ Una **bendición** en el contexto de La Iglesia de Jesucristo de los Santos de l
 ## Elementos esenciales
 - **Autoridad del sacerdocio**: Solo quienes poseen esta autoridad pueden pronunciarlas
 - **Fe**: Tanto quien da como quien recibe debe ejercer fe
-- **Inspiración**: Se pronuncian bajo la influencia del **[Espíritu Santo](espiritu-santo)**
+- **Inspiración**: Se pronuncian bajo la influencia del Espíritu Santo
 - **Voluntad de Dios**: Las bendiciones se cumplen según la voluntad divina
 
 ## Escrituras relacionadas

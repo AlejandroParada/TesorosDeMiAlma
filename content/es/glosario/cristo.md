@@ -42,7 +42,7 @@
 - **Precio infinito**: Satisfizo las demandas de la justicia
 
 ### **Beneficios de la Expiación**
-- **Perdón de pecados**: A través del **[arrepentimiento](arrepentimiento)**
+- **Perdón de pecados**: A través del arrepentimiento
 - **Resurrección universal**: Todos serán resucitados
 - **Vida eterna**: Para los obedientes y fieles
 - **Paz y sanación**: Consuelo en las aflicciones
@@ -52,11 +52,11 @@
 ### **Vida terrenal**
 - **Obediencia perfecta**: Siempre hizo la voluntad del Padre
 - **Amor incondicional**: Amó a todos sin excepción
-- **Servicio desinteresado**: **[Ministró](ministrar)** a todos los necesitados
+- **Servicio desinteresado**: Ministró a todos los necesitados
 - **Humildad**: A pesar de Su divinidad, sirvió con mansedumbre
 
 ### **Enseñanzas**
-- **El **[Evangelio](evangelio-de-jesucristo)****: Enseñó el plan de salvación
+- **El Evangelio**: Enseñó el plan de salvación
 - **Principios eternos**: Amor, perdón, servicio, fe
 - **Parábolas**: Enseñó verdades profundas de manera simple
 - **Ejemplo personal**: Sus acciones respaldaron Sus palabras
@@ -72,8 +72,8 @@
 ### **Como seguir Su luz**
 - **Vivir Sus enseñanzas**: Obedecer Sus mandamientos
 - **Imitar Su ejemplo**: Amar y servir como Él lo hizo
-- **Buscar Su **[Espíritu](espiritu-santo)**: Través de la **[oración](oracion)** y el estudio
-- **Compartir Su amor**: **[Ministrar](ministrar)** a otros con caridad
+- **Buscar Su Espíritu: Través de la oración y el estudio
+- **Compartir Su amor**: Ministrar a otros con caridad
 
 ## Escrituras relacionadas
 > *"Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna"* (Juan 3:16)
@@ -85,10 +85,10 @@
 ## Relación personal con Cristo
 
 ### **Fe en Cristo**
-- **Conocer Su naturaleza divina**: Estudiar sobre Él en las **[escrituras](leer-las-escrituras)**
+- **Conocer Su naturaleza divina**: Estudiar sobre Él en las escrituras
 - **Confiar en Su poder**: Creer que puede salvarnos
 - **Seguir Su ejemplo**: Vivir como Él vivió
-- **Invocar Su nombre**: **[Orar](oracion)** al Padre en Su nombre
+- **Invocar Su nombre**: Orar al Padre en Su nombre
 
 ### **Ser como Cristo**
 - **Desarrollar atributos cristianos**: Amor, paciencia, humildad, perdón
@@ -97,12 +97,12 @@
 - **Amar incondicionalmente**: Como Él nos ama
 
 ## Testimonio de Cristo
-Un **[testimonio](testimonio)** de Jesucristo es el conocimiento seguro, dado por el **[Espíritu Santo](espiritu-santo)**, de que Jesús es el Cristo, el Salvador del mundo. Este testimonio es el fundamento de toda fe verdadera y la fuente de paz y esperanza eternas.
+Un testimonio de Jesucristo es el conocimiento seguro, dado por el Espíritu Santo, de que Jesús es el Cristo, el Salvador del mundo. Este testimonio es el fundamento de toda fe verdadera y la fuente de paz y esperanza eternas.
 
 ## Su papel en la Iglesia restaurada
 En La Iglesia de Jesucristo de los Santos de los Últimos Días, Cristo es:
 - **La cabeza de la Iglesia**: Dirige Su Iglesia a través de profetas vivientes
-- **El centro del **[Evangelio](evangelio-de-jesucristo)****: Toda doctrina se centra en Él
+- **El centro del Evangelio**: Toda doctrina se centra en Él
 - **El objeto de adoración**: Adoramos al Padre en Su nombre
 - **Nuestro ejemplo**: El modelo perfecto a seguir
 

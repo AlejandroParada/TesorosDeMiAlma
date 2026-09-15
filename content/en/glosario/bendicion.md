@@ -1,13 +1,13 @@
 # Blessing
 
 ## Definition
-A **blessing** in the context of The Church of Jesus Christ of Latter-day Saints is a sacred ordinance or declaration of faith pronounced by someone who possesses **[priesthood](sacerdocio)** authority to invoke heaven's blessings upon a person.
+A **blessing** in the context of The Church of Jesus Christ of Latter-day Saints is a sacred ordinance or declaration of faith pronounced by someone who possesses priesthood authority to invoke heaven's blessings upon a person.
 
 ## Main types of blessings
 
 ### 1. **Blessings of health**
 - Administered to the sick or afflicted
-- Require two **[priesthood holders](sacerdocio)**
+- Require two priesthood holders
 - Include anointing with consecrated oil and laying on of hands
 - Seek physical, emotional, or spiritual healing according to God's will
 
@@ -15,7 +15,7 @@ A **blessing** in the context of The Church of Jesus Christ of Latter-day Saints
 - Given by an ordained patriarch
 - Provide personal guidance and promises for life
 - Declare lineage from the house of Israel
-- Considered personal **[scripture](leer-las-escrituras)**
+- Considered personal scripture
 
 ### 3. **Blessings of comfort**
 - Offered in times of need
@@ -31,7 +31,7 @@ A **blessing** in the context of The Church of Jesus Christ of Latter-day Saints
 ## Essential elements
 - **Priesthood authority**: Only those who possess this authority can pronounce them
 - **Faith**: Both giver and receiver must exercise faith
-- **Inspiration**: Pronounced under the influence of the **[Holy Spirit](espiritu-santo)**
+- **Inspiration**: Pronounced under the influence of the Holy Spirit
 - **God's will**: Blessings are fulfilled according to divine will
 
 ## Related scriptures

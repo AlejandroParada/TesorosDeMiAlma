@@ -1,7 +1,7 @@
 # Caridad
 
 ## Definición
-La **caridad** es el amor puro de **[Cristo](cristo)**. Es el más grande de todos los dones espirituales y el atributo supremo que pueden desarrollar los hijos de Dios. Es un amor desinteresado, incondicional y duradero hacia Dios y hacia todos Sus hijos.
+La **caridad** es el amor puro de Cristo. Es el más grande de todos los dones espirituales y el atributo supremo que pueden desarrollar los hijos de Dios. Es un amor desinteresado, incondicional y duradero hacia Dios y hacia todos Sus hijos.
 
 ## Características de la caridad
 
@@ -9,7 +9,7 @@ La **caridad** es el amor puro de **[Cristo](cristo)**. Es el más grande de tod
 - **Sin expectativas**: No busca recompensa o reconocimiento
 - **Universal**: Se extiende a todas las personas sin excepción
 - **Duradero**: No se desvanece con el tiempo o las circunstancias
-- **Perfecto**: Refleja el amor que **[Cristo](cristo)** tiene por nosotros
+- **Perfecto**: Refleja el amor que Cristo tiene por nosotros
 
 ### **Atributos de la caridad según las escrituras**
 Según 1 Corintios 13:4-8, la caridad:
@@ -34,22 +34,22 @@ Según 1 Corintios 13:4-8, la caridad:
 
 ### **Origen celestial**
 - **Don de Dios**: No se puede desarrollar solo con esfuerzo humano
-- **Fruto del **[Espíritu](espiritu-santo)**: Se recibe a través del Espíritu Santo
-- **Regalo de la **[Expiación](cristo)**: Posible gracias al sacrificio de Cristo
+- **Fruto del Espíritu: Se recibe a través del Espíritu Santo
+- **Regalo de la Expiación: Posible gracias al sacrificio de Cristo
 - **Oración sincera**: Se obtiene pidiendo al Padre con fe
 
 ### **Cómo obtener la caridad**
 1. **Orar con fe**: Pedir al Padre Celestial con todo el corazón
-2. **Seguir a **[Cristo](cristo)**: Imitar Su ejemplo de amor perfecto
-3. **Servir desinteresadamente**: **[Ministrar](ministrar)** a otros sin buscar recompensa
-4. **Estudiar las **[escrituras](leer-las-escrituras)**: Aprender sobre el amor de Dios
+2. **Seguir a Cristo: Imitar Su ejemplo de amor perfecto
+3. **Servir desinteresadamente**: Ministrar a otros sin buscar recompensa
+4. **Estudiar las escrituras: Aprender sobre el amor de Dios
 5. **Arrepentirse sinceramente**: Purificar el corazón del egoísmo
 6. **Obedecer los mandamientos**: Vivir dignamente del don
 
 ## Manifestaciones de la caridad
 
 ### **En el hogar**
-- **Paciencia familiar**: Amor duradero hacia los **[miembros](miembro)** de la familia
+- **Paciencia familiar**: Amor duradero hacia los miembros de la familia
 - **Perdón constante**: Capacidad de perdonar faltas repetidas
 - **Servicio silencioso**: Ayudar sin ser pedido ni reconocido
 - **Sacrificio personal**: Poner las necesidades familiares antes que las propias
@@ -62,8 +62,8 @@ Según 1 Corintios 13:4-8, la caridad:
 
 ### **En la Iglesia**
 - **Unidad**: Trabajar por la armonía y el bienestar común
-- **Apoyo a los líderes**: Sostener con amor y **[oración](oracion)**
-- ****[Ministración](ministrar)** auténtica**: Cuidar genuinamente de otros **[miembros](miembro)**
+- **Apoyo a los líderes**: Sostener con amor y oración
+- **Ministración auténtica**: Cuidar genuinamente de otros miembros
 - **Edificación mutua**: Ayudar a otros a crecer espiritualmente
 
 ## Escrituras sobre la caridad
@@ -98,7 +98,7 @@ Según 1 Corintios 13:4-8, la caridad:
 ### **El ejemplo perfecto de Cristo**
 - **Amor universal**: Amó a pecadores, enemigos y extraños
 - **Sacrificio supremo**: Dio Su vida por toda la humanidad
-- **Servicio constante**: **[Ministró](ministrar)** incansablemente a los necesitados
+- **Servicio constante**: Ministró incansablemente a los necesitados
 - **Perdón infinito**: Perdonó incluso a Sus crucificadores
 
 ### **Caridad cotidiana**
@@ -110,13 +110,13 @@ Según 1 Corintios 13:4-8, la caridad:
 ## La caridad y otras virtudes
 
 ### **Relación con la fe**
-La caridad fortalece y es fortalecida por la fe en **[Cristo](cristo)**
+La caridad fortalece y es fortalecida por la fe en Cristo
 
 ### **Conexión con la esperanza**
 El amor verdadero genera esperanza tanto en quien ama como en quien es amado
 
 ### **Fundamento del servicio**
-La **[ministración](ministrar)** genuina nace del amor puro, no de la obligación
+La ministración genuina nace del amor puro, no de la obligación
 
 ## Oración por la caridad
 Mormón nos enseña a orar: **"Ruego al Padre con toda la energía de mi corazón que seáis llenos de este amor"**. La caridad debe ser el objeto de nuestra oración más sincera y constante.

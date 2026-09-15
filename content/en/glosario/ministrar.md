@@ -1,7 +1,7 @@
 # Ministering
 
 ## Definition
-**Ministering** in the context of The Church of Jesus Christ of Latter-day Saints means serving, caring for, and strengthening others following the example of Jesus Christ. It is a fundamental principle of the **[Gospel](evangelio-de-jesucristo)** that goes beyond formal assignments.
+**Ministering** in the context of The Church of Jesus Christ of Latter-day Saints means serving, caring for, and strengthening others following the example of Jesus Christ. It is a fundamental principle of the Gospel that goes beyond formal assignments.
 
 ## Characteristics of Christian ministry
 - **Selfless service**: Helping without expecting reward
@@ -33,6 +33,6 @@ Jesus Christ is the perfect example of ministering. He "went about doing good" (
 
 ## Blessings of ministering
 - **Personal spiritual growth**: Those who serve draw closer to Christ
-- **Strengthened faith**: Service increases one's **[testimony](testimonio)**
-- **Unity in community**: Creates strong bonds among **[members](miembro)**
+- **Strengthened faith**: Service increases one's testimony
+- **Unity in community**: Creates strong bonds among members
 - **Preparation for eternity**: Develops divine attributes

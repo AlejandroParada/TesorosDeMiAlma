@@ -1,12 +1,12 @@
 # Estaca
 
 ## Definición
-Una **estaca** es una unidad organizacional geográfica de La Iglesia de Jesucristo de los Santos de los Últimos Días, compuesta generalmente por entre 5 a 12 **[barrios](barrio)** o ramas. Es equivalente a una diócesis en otras organizaciones cristianas.
+Una **estaca** es una unidad organizacional geográfica de La Iglesia de Jesucristo de los Santos de los Últimos Días, compuesta generalmente por entre 5 a 12 barrios o ramas. Es equivalente a una diócesis en otras organizaciones cristianas.
 
 ## Estructura organizacional
 
 ### **Liderazgo de estaca**
-- **Presidente de estaca**: Líder principal, posee las llaves del **[sacerdocio](sacerdocio)**
+- **Presidente de estaca**: Líder principal, posee las llaves del sacerdocio
 - **Dos consejeros**: Asisten al presidente en sus responsabilidades
 - **Secretario de estaca**: Maneja registros y correspondencia oficial
 - **Doce sumos consejeros**: Asisten en la administración de los barrios
@@ -21,8 +21,8 @@ Una **estaca** es una unidad organizacional geográfica de La Iglesia de Jesucri
 ## Responsabilidades principales
 
 ### **Supervisión pastoral**
-- Supervisar el bienestar espiritual y temporal de los **[miembros](miembro)**
-- Coordinar con **[obispos](obispo)** de barrios individuales
+- Supervisar el bienestar espiritual y temporal de los miembros
+- Coordinar con obispos de barrios individuales
 - Proporcionar liderazgo y orientación doctrinal
 - Realizar entrevistas de dignidad y llamar a líderes
 
@@ -30,10 +30,10 @@ Una **estaca** es una unidad organizacional geográfica de La Iglesia de Jesucri
 - Organizar conferencias de estaca semestrales
 - Coordinar programas de la Iglesia a nivel regional
 - Administrar recursos y presupuestos de estaca
-- Facilitar la obra del **[templo](templo)** y genealógica
+- Facilitar la obra del templo y genealógica
 
 ### **Desarrollo de liderazgo**
-- Capacitar a líderes de **[barrio](barrio)**
+- Capacitar a líderes de barrio
 - Llamar y apartar a presidentes de organizaciones auxiliares
 - Proporcionar orientación en principios de liderazgo
 - Coordinar programas de capacitación
@@ -41,8 +41,8 @@ Una **estaca** es una unidad organizacional geográfica de La Iglesia de Jesucri
 ## Actividades y programas de estaca
 
 ### **Conferencias de estaca**
-- **Sesión general**: Para todos los **[miembros](miembro)** de la estaca
-- **Sesión del sacerdocio**: Solo para portadores del **[sacerdocio](sacerdocio)**
+- **Sesión general**: Para todos los miembros de la estaca
+- **Sesión del sacerdocio**: Solo para portadores del sacerdocio
 - **Sesión de liderazgo**: Capacitación para líderes locales
 - **Frecuencia**: Generalmente dos veces por año
 
@@ -61,9 +61,9 @@ Una **estaca** es una unidad organizacional geográfica de La Iglesia de Jesucri
 ## Geografía y demografía
 
 ### **Requisitos para formar una estaca**
-- Mínimo de 3,000 **[miembros](miembro)** aproximadamente
+- Mínimo de 3,000 miembros aproximadamente
 - Al menos 5 barrios organizados
-- Suficiente liderazgo calificado del **[sacerdocio](sacerdocio)**
+- Suficiente liderazgo calificado del sacerdocio
 - Estabilidad geográfica y económica de la región
 
 ### **Centros de estaca**
@@ -79,19 +79,19 @@ Una **estaca** es una unidad organizacional geográfica de La Iglesia de Jesucri
 
 ## Propósito espiritual
 
-### **Fortalecimiento del **[testimonio](testimonio)**
+### **Fortalecimiento del testimonio
 - Conferencias inspiradoras con líderes de área
 - Oportunidades de servicio y crecimiento espiritual
-- Programas de **[ministración](ministrar)** coordinados
+- Programas de ministración coordinados
 - Actividades que edifican la fe
 
 ### **Unidad y hermandad**
-- Crear vínculos entre **[barrios](barrio)** vecinos
-- Facilitar amistades duraderas entre **[miembros](miembro)**
+- Crear vínculos entre barrios vecinos
+- Facilitar amistades duraderas entre miembros
 - Programas intergeneracionales que fortalecen familias
 - Servicio coordinado en la comunidad
 
 ## Desarrollo histórico
-El sistema de estacas fue establecido por el profeta José Smith como parte de la restauración del **[Evangelio](evangelio-de-jesucristo)**. El término proviene de Isaías 54:2: "Ensancha el sitio de tu tienda... alarga tus cuerdas, y refuerza tus **estacas**", simbolizando el fortalecimiento y expansión de Sión.
+El sistema de estacas fue establecido por el profeta José Smith como parte de la restauración del Evangelio. El término proviene de Isaías 54:2: "Ensancha el sitio de tu tienda... alarga tus cuerdas, y refuerza tus **estacas**", simbolizando el fortalecimiento y expansión de Sión.
 
 Las estacas representan el crecimiento y madurez organizacional de la Iglesia, proporcionando estructura estable para el cuidado pastoral y el desarrollo espiritual de los santos en todo el mundo.

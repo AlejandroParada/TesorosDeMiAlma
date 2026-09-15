@@ -18,8 +18,8 @@ El **Espíritu Santo** es el tercer miembro de la Trinidad o Divinidad. Es un pe
 - Proporciona esperanza en la adversidad
 
 ### **Testigo de la verdad**
-- Confirma la veracidad del **[Evangelio de Jesucristo](evangelio-de-jesucristo)**
-- Da **[testimonio](testimonio)** de que Jesús es el Cristo
+- Confirma la veracidad del Evangelio de Jesucristo
+- Da testimonio de que Jesús es el Cristo
 - Revela verdades espirituales
 - Ayuda a discernir entre el bien y el mal
 
@@ -27,11 +27,11 @@ El **Espíritu Santo** es el tercer miembro de la Trinidad o Divinidad. Es un pe
 - Enseña todas las cosas necesarias para la salvación
 - Trae a la memoria las enseñanzas de Cristo
 - Guía en la toma de decisiones importantes
-- Inspira en el **[estudio de las escrituras](leer-las-escrituras)**
+- Inspira en el estudio de las escrituras
 
 ### **Santificador**
 - Purifica el corazón del pecado
-- Ayuda en el proceso de **[arrepentimiento](arrepentimiento)**
+- Ayuda en el proceso de arrepentimiento
 - Transforma la naturaleza humana
 - Prepara para la presencia de Dios
 
@@ -46,7 +46,7 @@ El **Espíritu Santo** es el tercer miembro de la Trinidad o Divinidad. Es un pe
 ### **Dones espirituales específicos**
 - Sabiduría y conocimiento
 - Fe para sanar y ser sanado
-- Profecía y **[revelación](revelacion)**
+- Profecía y revelación
 - Discernimiento de espíritus
 - Hablar en lenguas e interpretación
 - Enseñanza inspirada
@@ -60,9 +60,9 @@ El **Espíritu Santo** es el tercer miembro de la Trinidad o Divinidad. Es un pe
 - **Arrepentimiento sincero**: Mantener el corazón puro
 
 ### **Búsqueda activa**
-- **Oración sincera**: Comunicarse con Dios en **[oración](oracion)**
-- **Estudio de las escrituras**: **[Leer las escrituras](leer-las-escrituras)** con propósito
-- **Servicio**: **[Ministrar](ministrar)** a otros con amor
+- **Oración sincera**: Comunicarse con Dios en oración
+- **Estudio de las escrituras**: Leer las escrituras con propósito
+- **Servicio**: Ministrar a otros con amor
 - **Obediencia**: Seguir los mandamientos y las impresiones recibidas
 
 ## Cómo reconocer Su presencia
@@ -105,4 +105,4 @@ El **Espíritu Santo** es el tercer miembro de la Trinidad o Divinidad. Es un pe
 - Sentimientos de vacío y soledad espiritual
 - Mayor susceptibilidad a la tentación
 
-El Espíritu Santo es el don más grande que puede recibir un **[miembro](miembro)** de la Iglesia después del sacrificio expiatorio de Jesucristo, proporcionando guía constante, consuelo y confirmación de la verdad a lo largo de la vida.
+El Espíritu Santo es el don más grande que puede recibir un miembro de la Iglesia después del sacrificio expiatorio de Jesucristo, proporcionando guía constante, consuelo y confirmación de la verdad a lo largo de la vida.

@@ -1,28 +1,28 @@
 # Revelación
 
 ## Definición
-La **revelación** es la comunicación de Dios con Sus hijos a través del **[Espíritu Santo](espiritu-santo)**. Es el medio por el cual el Señor imparte verdad, conocimiento, guía y consuelo a quienes buscan Su voluntad con fe y sinceridad.
+La **revelación** es la comunicación de Dios con Sus hijos a través del Espíritu Santo. Es el medio por el cual el Señor imparte verdad, conocimiento, guía y consuelo a quienes buscan Su voluntad con fe y sinceridad.
 
 ## Tipos de revelación
 
 ### **Revelación continua**
 - **Para la Iglesia**: A través de profetas, videntes y reveladores
-- **Para individuos**: Guía personal para cada **[miembro](miembro)**
+- **Para individuos**: Guía personal para cada miembro
 - **Para familias**: Dirección para padres y líderes familiares
 - **Para llamamientos**: Inspiración para servir en posiciones específicas
 
 ### **Formas de revelación**
 1. **Impresiones espirituales**: Sentimientos de paz, confirmación o advertencia
-2. **Pensamientos inspirados**: Ideas que vienen a la mente durante la **[oración](oracion)**
+2. **Pensamientos inspirados**: Ideas que vienen a la mente durante la oración
 3. **Sueños y visiones**: Experiencias espirituales especiales
-4. **Palabras habladas**: A través de líderes del **[sacerdocio](sacerdocio)** inspirados
+4. **Palabras habladas**: A través de líderes del sacerdocio inspirados
 5. **Circunstancias dirigidas**: Eventos que guían hacia la verdad
 
 ## Principios para recibir revelación
 
 ### **Preparación personal**
 - **Vivir dignamente**: Obedecer los mandamientos
-- **Estudiar las escrituras**: **[Leer las escrituras](leer-las-escrituras)** regularmente
+- **Estudiar las escrituras**: Leer las escrituras regularmente
 - **Orar con fe**: Comunicarse sinceramente con Dios
 - **Ayunar**: Buscar mayor sensibilidad espiritual
 
@@ -36,15 +36,15 @@ La **revelación** es la comunicación de Dios con Sus hijos a través del **[Es
 
 ### **Fuente divina**
 - Viene de Dios a través del Espíritu Santo
-- Está en armonía con las **[escrituras](leer-las-escrituras)**
+- Está en armonía con las escrituras
 - Edifica y eleva espiritualmente
 - Promueve la rectitud y la verdad
 
 ### **Propósito edificante**
-- Fortalece la fe y el **[testimonio](testimonio)**
+- Fortalece la fe y el testimonio
 - Guía en decisiones importantes
 - Proporciona consuelo en la aflicción
-- Revela verdades del **[Evangelio](evangelio-de-jesucristo)**
+- Revela verdades del Evangelio
 
 ## Escrituras relacionadas
 > *"Porque mis pensamientos no son vuestros pensamientos, ni vuestros caminos mis caminos, dice Jehová"* (Isaías 55:8)

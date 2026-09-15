@@ -6,7 +6,7 @@ El **sacerdocio** es la autoridad y el poder eterno de Dios, otorgado a los homb
 ## Los dos órdenes del sacerdocio
 
 ### **Sacerdocio Aarónico** (Sacerdocio Menor)
-- **Oficios**: Diácono, Maestro, Presbítero, **[Obispo](obispo)**
+- **Oficios**: Diácono, Maestro, Presbítero, Obispo
 - **Llaves**: Ministerio de ángeles, evangelio preparatorio, bautismo por inmersión
 - **Responsabilidades**: 
   - Administrar la Santa Cena
@@ -15,12 +15,12 @@ El **sacerdocio** es la autoridad y el poder eterno de Dios, otorgado a los homb
   - Enseñar, exhortar y bautizar
 
 ### **Sacerdocio de Melquisedec** (Sacerdocio Mayor)
-- **Oficios**: **[Élder](elderes)**, Sumo Sacerdote, Patriarca, Setenta, Apóstol
+- **Oficios**: Élder, Sumo Sacerdote, Patriarca, Setenta, Apóstol
 - **Llaves**: Todas las bendiciones espirituales de la Iglesia
 - **Responsabilidades**:
   - Administrar ordenanzas del templo
-  - **[Bendiciones](bendicion)** de salud y consuelo
-  - Confirmar **[miembros](miembro)** y conferir el don del Espíritu Santo
+  - Bendiciones de salud y consuelo
+  - Confirmar miembros y conferir el don del Espíritu Santo
   - Dirigir la obra misional
 
 ## Principios fundamentales
@@ -53,9 +53,9 @@ El **sacerdocio** es la autoridad y el poder eterno de Dios, otorgado a los homb
 
 ## Bendiciones del sacerdocio
 - **Para quien lo posee**: Crecimiento espiritual, oportunidades de servir
-- **Para las familias**: Liderazgo patriarcal, **[bendiciones](bendicion)** del padre
+- **Para las familias**: Liderazgo patriarcal, bendiciones del padre
 - **Para la Iglesia**: Administración ordenada, autoridad divina
-- **Para el mundo**: Predicación del **[Evangelio](evangelio-de-jesucristo)**, ordenanzas de salvación
+- **Para el mundo**: Predicación del Evangelio, ordenanzas de salvación
 
 ## Organización del sacerdocio
 - **Quórumes**: Grupos organizados por oficio del sacerdocio

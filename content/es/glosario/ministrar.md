@@ -1,7 +1,7 @@
 # Ministrar
 
 ## Definición
-**Ministrar** en el contexto de La Iglesia de Jesucristo de los Santos de los Últimos Días significa servir, cuidar y fortalecer a otros siguiendo el ejemplo de Jesucristo. Es un principio fundamental del **[Evangelio](evangelio-de-jesucristo)** que va más allá de las asignaciones formales.
+**Ministrar** en el contexto de La Iglesia de Jesucristo de los Santos de los Últimos Días significa servir, cuidar y fortalecer a otros siguiendo el ejemplo de Jesucristo. Es un principio fundamental del Evangelio que va más allá de las asignaciones formales.
 
 ## Características del ministerio cristiano
 - **Servicio desinteresado**: Ayudar sin esperar recompensa
@@ -33,6 +33,6 @@ Jesucristo es el ejemplo perfecto de ministerio. Él "anduvo haciendo bienes" (H
 
 ## Bendiciones del ministerio
 - **Crecimiento espiritual personal**: Quien sirve se acerca más a Cristo
-- **Fortalecimiento de la fe**: El servicio aumenta el **[testimonio](testimonio)**
-- **Unidad en la comunidad**: Crea lazos fuertes entre los **[miembros](miembro)**
+- **Fortalecimiento de la fe**: El servicio aumenta el testimonio
+- **Unidad en la comunidad**: Crea lazos fuertes entre los miembros
 - **Preparación para la eternidad**: Desarrolla atributos divinos

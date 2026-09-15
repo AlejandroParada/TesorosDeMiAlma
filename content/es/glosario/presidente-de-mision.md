@@ -1,31 +1,31 @@
 # Presidente de Misión
 
 ## Definición
-Un **presidente de misión** es un **[miembro](miembro)** de la Iglesia llamado por las autoridades generales para presidir sobre una misión específica y supervisar la obra misional en esa área geográfica durante aproximadamente tres años.
+Un **presidente de misión** es un miembro de la Iglesia llamado por las autoridades generales para presidir sobre una misión específica y supervisar la obra misional en esa área geográfica durante aproximadamente tres años.
 
 ## Llamamiento y servicio
 - **Duración**: Generalmente tres años
 - **Llamamiento**: Por un miembro del Quórum de los Doce Apóstoles
 - **Servicio**: Tiempo completo con su esposa
-- **Sostenimiento**: Sostenido por los **[miembros](miembro)** de la Iglesia
+- **Sostenimiento**: Sostenido por los miembros de la Iglesia
 
 ## Responsabilidades principales
 
 ### **Supervisión de misioneros**
-- Dirigir entre 100-400 **[misioneros](mision)** de tiempo completo
+- Dirigir entre 100-400 misioneros de tiempo completo
 - Realizar entrevistas regulares de progreso
 - Proporcionar capacitación y orientación espiritual
 - Asignar compañeros y áreas de servicio
 
 ### **Administración misional**
 - Supervisar el trabajo proselitista en toda la misión
-- Coordinar con líderes locales de **[estaca](estaca)** y **[barrio](barrio)**
+- Coordinar con líderes locales de estaca y barrio
 - Administrar recursos y presupuestos misioneros
 - Reportar regularmente a las autoridades de área
 
 ### **Liderazgo espiritual**
-- Enseñar y capacitar en principios del **[Evangelio](evangelio-de-jesucristo)**
-- Dar **[bendiciones](bendicion)** del **[sacerdocio](sacerdocio)**
+- Enseñar y capacitar en principios del Evangelio
+- Dar bendiciones del sacerdocio
 - Proporcionar consejo y guía bajo inspiración
 - Ser ejemplo de fe y dedicación
 
@@ -37,7 +37,7 @@ Un **presidente de misión** es un **[miembro](miembro)** de la Iglesia llamado 
 
 ## La esposa del presidente de misión
 - **Compañera integral**: Sirve junto a su esposo
-- **Madre misional**: Cuida especialmente de las **[hermanas misioneras](hermanas-misioneras)**
+- **Madre misional**: Cuida especialmente de las hermanas misioneras
 - **Capacitadora**: Enseña principios del Evangelio y habilidades misionales
 - **Consejera**: Proporciona guía y apoyo maternal
 
@@ -49,7 +49,7 @@ Un **presidente de misión** es un **[miembro](miembro)** de la Iglesia llamado 
 
 ## Cualidades esenciales
 - **Experiencia en liderazgo**: Antecedentes de servicio en la Iglesia
-- **Madurez espiritual**: **[Testimonio](testimonio)** firme del **[Evangelio](evangelio-de-jesucristo)**
+- **Madurez espiritual**: Testimonio firme del Evangelio
 - **Habilidades administrativas**: Capacidad para dirigir organizaciones
 - **Sensibilidad pastoral**: Amor genuino por los jóvenes adultos
 
@@ -60,7 +60,7 @@ Un **presidente de misión** es un **[miembro](miembro)** de la Iglesia llamado 
 
 ## Impacto y legado
 - **Desarrollo espiritual**: Influye en cientos de misioneros jóvenes
-- **Crecimiento de la Iglesia**: Supervisa la expansión del **[Evangelio](evangelio-de-jesucristo)**
+- **Crecimiento de la Iglesia**: Supervisa la expansión del Evangelio
 - **Preparación de líderes**: Ayuda a formar futuros líderes de la Iglesia
 - **Fortalecimiento familiar**: Modela principios familiares cristianos
 
