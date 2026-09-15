@@ -5,8 +5,9 @@
 
 class BookReader {
     constructor() {
-        this.currentChapter = 1;
+        this.currentChapter = 0; // Empezar con la introducción
         this.totalChapters = 31; // Actualizar según el número de archivos
+        this.hasIntroduction = true; // Flag para indicar que hay introducción
         this.chapters = {};
         this.fontSize = localStorage.getItem('fontSize') || 'normal';
         this.theme = localStorage.getItem('theme') || 'light';
@@ -167,6 +168,23 @@ El contenido completo está disponible en los archivos ${i}.md del proyecto.`;
         const chapterList = document.getElementById('chapter-list');
         chapterList.innerHTML = '';
 
+        // Añadir introducción si existe
+        if (this.hasIntroduction) {
+            const listItem = document.createElement('li');
+            const link = document.createElement('a');
+            link.href = '#';
+            link.dataset.chapter = 0;
+            link.textContent = window.i18n.t('introduction') || 'Introducción';
+            
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                this.loadChapter(0);
+            });
+
+            listItem.appendChild(link);
+            chapterList.appendChild(listItem);
+        }
+
         for (let i = 1; i <= this.totalChapters; i++) {
             const listItem = document.createElement('li');
             const link = document.createElement('a');
@@ -188,7 +206,9 @@ El contenido completo está disponible en los archivos ${i}.md del proyecto.`;
      * Cargar un capítulo específico
      */
     async loadChapter(chapterNumber) {
-        if (chapterNumber < 1 || chapterNumber > this.totalChapters) {
+        // Permitir capítulo 0 para introducción
+        const minChapter = this.hasIntroduction ? 0 : 1;
+        if (chapterNumber < minChapter || chapterNumber > this.totalChapters) {
             this.showError(window.i18n.t('error.chapterNotFound'));
             return;
         }
@@ -226,6 +246,38 @@ El contenido completo está disponible en los archivos ${i}.md del proyecto.`;
     async fetchChapterContent(chapterNumber) {
         const language = window.i18n.getLanguage();
         
+        // Manejar introducción especial
+        if (chapterNumber === 0) {
+            const fileName = 'introduccion.md';
+            
+            if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
+                // Intentar cargar desde content/[lang]/
+                try {
+                    const response = await fetch(`content/${language}/${fileName}`);
+                    if (response.ok) {
+                        return await response.text();
+                    }
+                } catch (error) {
+                    console.log(`Introduction not found in ${language}, trying original file`);
+                }
+
+                // Si no existe traducción, intentar cargar el archivo original
+                try {
+                    const response = await fetch(fileName);
+                    if (response.ok) {
+                        return await response.text();
+                    }
+                } catch (error) {
+                    console.error('Error fetching introduction:', error);
+                }
+                
+                return null;
+            } else {
+                // Modo local: contenido embebido de introducción
+                return this.getEmbeddedIntroduction(language);
+            }
+        }
+        
         // Si estamos en un servidor (protocolo http/https), usar fetch
         if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
             // Intentar cargar desde content/[lang]/
@@ -253,6 +305,55 @@ El contenido completo está disponible en los archivos ${i}.md del proyecto.`;
             // Modo local (file://): cargar contenido embebido
             return this.getEmbeddedContent(chapterNumber, language);
         }
+    }
+
+    /**
+     * Obtener contenido embebido de la introducción
+     */
+    getEmbeddedIntroduction(language) {
+        const introductions = {
+            'es': `# Introducción
+
+> **"Mas el que bebiere del agua que yo le daré, no tendrá sed jamás; sino que el agua que yo le daré será en él una fuente de agua que salte para vida eterna."** (Juan 4:14)
+
+> **"Porque donde esté vuestro tesoro, allí estará también vuestro corazón."** (Mateo 6:21)
+
+Querido lector,
+
+Tienes en tus manos una colección de relatos que nacieron del corazón. **"Tesoros de Mi Alma"** es un cofre lleno de vivencias que han marcado el sendero de fe.
+
+Para ver el contenido completo, instala Python y ejecuta el servidor:
+1. python.org/downloads
+2. python server.py`,
+            'en': `# Introduction
+
+> **"But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life."** (John 4:14)
+
+> **"For where your treasure is, there will your heart be also."** (Matthew 6:21)
+
+Dear Reader,
+
+You hold in your hands a collection of stories that were born from the heart. **"Treasures of My Soul"** is a treasure chest filled with experiences that have marked the path of faith.
+
+To see the complete content, install Python and run the server:
+1. python.org/downloads  
+2. python server.py`,
+            'pt': `# Introdução
+
+> **"Mas aquele que beber da água que eu lhe der nunca terá sede, porque a água que eu lhe der se fará nele uma fonte de água que salte para a vida eterna."** (João 4:14)
+
+> **"Porque onde estiver o vosso tesouro, aí estará também o vosso coração."** (Mateus 6:21)
+
+Querido leitor,
+
+Você tem em suas mãos uma coleção de relatos que nasceram do coração. **"Tesouros da Minha Alma"** é um baú cheio de vivências que marcaram o caminho de fé.
+
+Para ver o conteúdo completo, instale o Python e execute o servidor:
+1. python.org/downloads
+2. python server.py`
+        };
+        
+        return introductions[language] || introductions['es'];
     }
 
     /**
@@ -324,8 +425,9 @@ Para ver el contenido completo, instala Python y ejecuta el servidor:
      */
     navigateChapter(direction) {
         let newChapter = this.currentChapter;
+        const minChapter = this.hasIntroduction ? 0 : 1;
         
-        if (direction === 'prev' && this.currentChapter > 1) {
+        if (direction === 'prev' && this.currentChapter > minChapter) {
             newChapter = this.currentChapter - 1;
         } else if (direction === 'next' && this.currentChapter < this.totalChapters) {
             newChapter = this.currentChapter + 1;
@@ -343,9 +445,10 @@ Para ver el contenido completo, instala Python y ejecuta el servidor:
         const prevBtn = document.getElementById('prev-chapter');
         const nextBtn = document.getElementById('next-chapter');
         const indicator = document.getElementById('chapter-indicator');
+        const minChapter = this.hasIntroduction ? 0 : 1;
 
         if (prevBtn) {
-            prevBtn.disabled = this.currentChapter <= 1;
+            prevBtn.disabled = this.currentChapter <= minChapter;
         }
 
         if (nextBtn) {
@@ -353,7 +456,11 @@ Para ver el contenido completo, instala Python y ejecuta el servidor:
         }
 
         if (indicator) {
-            indicator.textContent = `${this.currentChapter} / ${this.totalChapters}`;
+            if (this.currentChapter === 0) {
+                indicator.textContent = window.i18n.t('introduction') || 'Introducción';
+            } else {
+                indicator.textContent = `${this.currentChapter} / ${this.totalChapters}`;
+            }
         }
     }
 
