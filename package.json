@@ -1,0 +1,37 @@
+{
+  "name": "tesoros-de-mi-alma",
+  "version": "1.0.0",
+  "description": "Libro digital responsive con soporte multilingüe",
+  "main": "index.html",
+  "scripts": {
+    "start": "python start.py",
+    "server": "python server.py",
+    "dev": "python server.py",
+    "build": "echo 'Proyecto listo para producción'",
+    "test": "echo 'No hay tests configurados aún'"
+  },
+  "keywords": [
+    "book",
+    "digital",
+    "responsive",
+    "multilingual",
+    "dark-mode",
+    "i18n",
+    "vanilla-js",
+    "no-framework"
+  ],
+  "author": "Alejandro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "engines": {
+    "python": ">=3.6"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11"
+  ]
+}

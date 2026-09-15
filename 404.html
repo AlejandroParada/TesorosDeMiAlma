@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tesoros de Mi Alma</title>
+  <script>
+    // Redirige 404 a index.html conservando query (?chapter=N)
+    // Necesario en GitHub Pages (project site)
+    (function () {
+      var parts = location.pathname.split('/').filter(Boolean);
+      // username.github.io/RepoName/... → base = /RepoName/
+      var base = parts.length ? '/' + parts[0] + '/' : '/';
+      var search = location.search || '';
+      var hash = location.hash || '';
+      location.replace(base + search + hash);
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirigiendo…</p>
+</body>
+</html>

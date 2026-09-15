@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesoros de Mi Alma</title>
+    <link rel="stylesheet" href="styles/simple.css?v=gh-pages-047">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="nav-container">
+                <div class="nav-title">
+                    <button id="sidebar-toggle" class="control-btn" title="Menú">📖</button>
+                    <span class="desktop-title" data-i18n="site.title">Tesoros de Mi Alma</span>
+                </div>
+                
+                <div class="nav-controls">
+                    <div class="lang-wrapper">
+                        <button id="lang-toggle" class="control-btn" data-i18n-title="btn.lang" title="Idioma">ES</button>
+                        <div id="lang-menu" class="lang-menu">
+                            <button type="button" data-lang="es">Español</button>
+                            <button type="button" data-lang="en">English</button>
+                            <button type="button" data-lang="pt">Português</button>
+                        </div>
+                    </div>
+                    <button id="theme-toggle" class="control-btn" data-i18n-title="btn.theme" title="Tema">🌓</button>
+                    <button id="font-decrease" class="control-btn" data-i18n-title="btn.font.dec" title="A-">A-</button>
+                    <button id="font-increase" class="control-btn" data-i18n-title="btn.font.inc" title="A+">A+</button>
+                </div>
+                
+                <div class="nav-center">
+                    <span id="chapter-indicator">1 / 32</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="app-body">
+            <aside class="app-sidebar" id="app-sidebar">
+                <div class="sidebar-header">
+                    <h3 data-i18n="sidebar.chapters">Capítulos</h3>
+                    <button id="sidebar-close">✕</button>
+                </div>
+                <div class="sidebar-content">
+                    <ul id="chapter-list" class="chapter-list"></ul>
+                </div>
+            </aside>
+
+            <main class="app-main">
+                <article id="chapter-content">
+                    <div class="loading" data-i18n="loading">Cargando...</div>
+                </article>
+            </main>
+        </div>
+
+        <footer class="app-footer">
+            <p data-i18n="footer.copyright">&copy; 2024 Tesoros de Mi Alma. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <nav class="bottom-nav">
+        <button id="bottom-prev" class="nav-button" disabled>◀</button>
+        
+        <div class="chapter-info">
+            <span id="bottom-chapter-current">1</span>
+            <span>/</span>
+            <span id="bottom-chapter-total">32</span>
+        </div>
+        
+        <button id="bottom-next" class="nav-button">▶</button>
+    </nav>
+
+    <script src="js/content-data.js?v=gh-pages-047"></script>
+    <script src="js/i18n.js?v=gh-pages-047"></script>
+    <script src="js/book-clean.js?v=gh-pages-047"></script>
+    <script src="js/glosario.js?v=gh-pages-047"></script>
+</body>
+</html>

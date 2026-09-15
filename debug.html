@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug - Carga de Capítulos</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-result { margin: 10px 0; padding: 10px; border: 1px solid #ddd; }
+        .success { background: #d4edda; }
+        .error { background: #f8d7da; }
+        .info { background: #d1ecf1; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Debug - Carga de Capítulos</h1>
+    <div id="results"></div>
+
+    <script>
+        async function testChapterLoading() {
+            const results = document.getElementById('results');
+            
+            // Función para agregar resultado
+            function addResult(message, type = 'info') {
+                const div = document.createElement('div');
+                div.className = `test-result ${type}`;
+                div.innerHTML = message;
+                results.appendChild(div);
+            }
+            
+            addResult(`🌐 <strong>Protocolo:</strong> ${window.location.protocol}`);
+            addResult(`📍 <strong>URL actual:</strong> ${window.location.href}`);
+            
+            // Probar carga de varios capítulos
+            const chaptersToTest = [1, 2, 3, 4, 5];
+            
+            for (const chapterNum of chaptersToTest) {
+                try {
+                    addResult(`🔄 Probando capítulo ${chapterNum}...`, 'info');
+                    
+                    const response = await fetch(`${chapterNum}.md`);
+                    
+                    if (response.ok) {
+                        const content = await response.text();
+                        const preview = content.substring(0, 100) + (content.length > 100 ? '...' : '');
+                        addResult(`✅ <strong>Capítulo ${chapterNum}:</strong> Cargado (${content.length} caracteres)<br><em>Preview:</em> ${preview}`, 'success');
+                    } else {
+                        addResult(`❌ <strong>Capítulo ${chapterNum}:</strong> Error ${response.status} - ${response.statusText}`, 'error');
+                    }
+                } catch (error) {
+                    addResult(`💥 <strong>Capítulo ${chapterNum}:</strong> Excepción - ${error.message}`, 'error');
+                }
+            }
+            
+            // Probar content-data.js
+            try {
+                if (window.BOOK_CONTENT) {
+                    const embeddedChapters = Object.keys(window.BOOK_CONTENT.chapters);
+                    addResult(`📚 <strong>Contenido embebido:</strong> ${embeddedChapters.length} capítulos disponibles: ${embeddedChapters.join(', ')}`, 'success');
+                } else {
+                    addResult(`❌ <strong>content-data.js:</strong> No se cargó window.BOOK_CONTENT`, 'error');
+                }
+            } catch (error) {
+                addResult(`💥 <strong>content-data.js:</strong> Error - ${error.message}`, 'error');
+            }
+        }
+        
+        // Ejecutar test
+        testChapterLoading();
+    </script>
+    
+    <!-- Cargar content-data.js para prueba -->
+    <script src="js/content-data.js"></script>
+</body>
+</html>
