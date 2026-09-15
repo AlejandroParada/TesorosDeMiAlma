@@ -88,7 +88,7 @@ El contenido completo está disponible en los archivos ${i}.md del proyecto.`;
         this.applyFontSize();
         this.setupSidebar();
         await this.loadChapterList();
-        await this.loadChapter(1);
+        await this.loadChapter(0); // Empezar con introducción
         this.updateNavigation();
     }
 
@@ -384,10 +384,15 @@ Para ver el contenido completo, instala Python y ejecuta el servidor:
         // Parsear el contenido markdown básico
         const html = this.parseMarkdown(content);
         
-        contentElement.innerHTML = `
-            <h1>${window.i18n.t('chapter.number')} ${chapterNumber}</h1>
-            ${html}
-        `;
+        // Para introducción (capítulo 0), no mostrar número
+        if (chapterNumber === 0) {
+            contentElement.innerHTML = html;
+        } else {
+            contentElement.innerHTML = `
+                <h1>${window.i18n.t('chapter.number')} ${chapterNumber}</h1>
+                ${html}
+            `;
+        }
     }
 
     /**

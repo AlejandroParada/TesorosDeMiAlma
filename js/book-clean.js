@@ -4,8 +4,9 @@
 
 class BookReader {
     constructor() {
-        this.currentChapter = 1;
-        this.totalChapters = 32;
+        this.currentChapter = 0; // Empezar con la introducción
+        this.totalChapters = 31;
+        this.hasIntroduction = true; // Flag para indicar que hay introducción
         this.fontSize = localStorage.getItem('fontSize') || 'normal';
         this.theme = localStorage.getItem('theme') || 'light';
         this.lang = window.I18N?.lang || 'es';
@@ -40,7 +41,7 @@ class BookReader {
         this.applyLanguage();
         await this.detectTotalChapters();
         this.loadChapterList();
-        this.loadChapter(this.getUrlChapter());
+        this.loadChapter(this.getUrlChapter() || 0); // Empezar con introducción por defecto
         this.updateUI();
         this.setupFullscreenOnStart();
     }
@@ -124,8 +125,10 @@ class BookReader {
     }
 
     navigate(direction) {
+        const minChapter = this.hasIntroduction ? 0 : 1;
         let newChapter = this.currentChapter;
-        if (direction === 'prev' && this.currentChapter > 1) {
+        
+        if (direction === 'prev' && this.currentChapter > minChapter) {
             newChapter = this.currentChapter - 1;
         } else if (direction === 'next' && this.currentChapter < this.totalChapters) {
             newChapter = this.currentChapter + 1;
@@ -200,7 +203,9 @@ class BookReader {
     }
 
     async loadChapter(chapterNumber) {
-        if (chapterNumber < 1 || chapterNumber > this.totalChapters) return;
+        // Permitir capítulo 0 para introducción
+        const minChapter = this.hasIntroduction ? 0 : 1;
+        if (chapterNumber < minChapter || chapterNumber > this.totalChapters) return;
         const content = document.getElementById('chapter-content');
         if (!content) return;
 
@@ -222,6 +227,31 @@ class BookReader {
 
     async getContent(chapterNumber) {
         const lang = this.lang || 'es';
+
+        // Manejar introducción especial
+        if (chapterNumber === 0) {
+            if (location.protocol.startsWith('http')) {
+                const fileName = 'introduccion.md';
+                const urls = [
+                    this.url(`content/${lang}/${fileName}`),
+                    lang === 'es' ? this.url(fileName) : null
+                ].filter(Boolean);
+
+                for (const url of urls) {
+                    try {
+                        const response = await fetch(url);
+                        if (response.ok) {
+                            const text = await response.text();
+                            const lines = text.trim().split('\n').filter(l => l.trim());
+                            if (lines.length > 1) return text;
+                        }
+                    } catch (e) {}
+                }
+            }
+
+            // Contenido embebido de introducción
+            return this.getEmbeddedIntroduction(lang);
+        }
 
         if (location.protocol.startsWith('http')) {
             const urls = [
@@ -251,11 +281,65 @@ class BookReader {
         return `# ${this.t('chapter.label')} ${chapterNumber}\n\n${this.t('content.missing')}`;
     }
 
+    getEmbeddedIntroduction(language) {
+        const introductions = {
+            'es': `# Introducción
+
+> **"Mas el que bebiere del agua que yo le daré, no tendrá sed jamás; sino que el agua que yo le daré será en él una fuente de agua que salte para vida eterna."** (Juan 4:14)
+
+> **"Porque donde esté vuestro tesoro, allí estará también vuestro corazón."** (Mateo 6:21)
+
+Querido lector,
+
+Tienes en tus manos una colección de relatos que nacieron del corazón. **"Tesoros de Mi Alma"** es un cofre lleno de vivencias que han marcado el sendero de fe.
+
+Para ver el contenido completo, instala Python y ejecuta el servidor:
+1. python.org/downloads
+2. python server.py`,
+            'en': `# Introduction
+
+> **"But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life."** (John 4:14)
+
+> **"For where your treasure is, there will your heart be also."** (Matthew 6:21)
+
+Dear Reader,
+
+You hold in your hands a collection of stories that were born from the heart. **"Treasures of My Soul"** is a treasure chest filled with experiences that have marked the path of faith.
+
+To see the complete content, install Python and run the server:
+1. python.org/downloads  
+2. python server.py`,
+            'pt': `# Introdução
+
+> **"Mas aquele que beber da água que eu lhe der nunca terá sede, porque a água que eu lhe der se fará nele uma fonte de água que salte para a vida eterna."** (João 4:14)
+
+> **"Porque onde estiver o vosso tesouro, aí estará também o vosso coração."** (Mateus 6:21)
+
+Querido leitor,
+
+Você tem em suas mãos uma coleção de relatos que nasceram do coração. **"Tesouros da Minha Alma"** é um baú cheio de vivências que marcaram o caminho de fé.
+
+Para ver o conteúdo completo, instale o Python e execute o servidor:
+1. python.org/downloads
+2. python server.py`
+        };
+        
+        return introductions[language] || introductions['es'];
+    }
+
     updateUI() {
-        this.setText('chapter-indicator', `${this.currentChapter} / ${this.totalChapters}`);
-        this.setText('bottom-chapter-current', this.currentChapter);
+        const minChapter = this.hasIntroduction ? 0 : 1;
+        
+        if (this.currentChapter === 0) {
+            this.setText('chapter-indicator', this.t('introduction') || 'Introducción');
+            this.setText('bottom-chapter-current', this.t('introduction') || 'Intro');
+        } else {
+            this.setText('chapter-indicator', `${this.currentChapter} / ${this.totalChapters}`);
+            this.setText('bottom-chapter-current', this.currentChapter);
+        }
+        
         this.setText('bottom-chapter-total', this.totalChapters);
-        this.setDisabled('bottom-prev', this.currentChapter <= 1);
+        this.setDisabled('bottom-prev', this.currentChapter <= minChapter);
         this.setDisabled('bottom-next', this.currentChapter >= this.totalChapters);
         this.updateSidebarActive();
     }
@@ -282,6 +366,21 @@ class BookReader {
         if (!list) return;
         list.innerHTML = '';
         const label = this.t('chapter.label');
+
+        // Añadir introducción si existe
+        if (this.hasIntroduction) {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = '#';
+            a.dataset.chapter = 0;
+            a.textContent = this.t('introduction') || 'Introducción';
+            a.onclick = (e) => {
+                e.preventDefault();
+                this.loadChapter(0);
+            };
+            li.appendChild(a);
+            list.appendChild(li);
+        }
 
         for (let i = 1; i <= this.totalChapters; i++) {
             const li = document.createElement('li');
