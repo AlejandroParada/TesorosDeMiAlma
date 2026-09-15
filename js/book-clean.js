@@ -43,7 +43,7 @@ class BookReader {
         this.applyLanguage();
         await this.detectTotalChapters();
         this.loadChapterList();
-        this.loadChapter(this.getUrlChapter() || -2); // Empezar con portada por defecto
+        this.loadChapter(this.getUrlChapter() ?? -2); // Empezar con portada por defecto
         this.updateUI();
         this.setupFullscreenOnStart();
     }
@@ -651,8 +651,15 @@ Para ver o conteúdo completo, instale o Python e execute o servidor:
 
     getUrlChapter() {
         const params = new URLSearchParams(location.search);
-        const chapter = parseInt(params.get('chapter')) || 1;
-        return (chapter >= 1 && chapter <= this.totalChapters) ? chapter : 1;
+        const raw = params.get('chapter');
+        if (raw === null || raw === '') return null; // Primera carga: sin parámetro → portada
+
+        const chapter = parseInt(raw, 10);
+        if (Number.isNaN(chapter)) return null;
+
+        const minChapter = this.hasPortada ? -2 : (this.hasDedicatoria ? -1 : (this.hasIntroduction ? 0 : 1));
+        if (chapter >= minChapter && chapter <= this.totalChapters) return chapter;
+        return null;
     }
 
     updateUrl() {
