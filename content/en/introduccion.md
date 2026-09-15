@@ -10,33 +10,33 @@ You hold in your hands—or on your device's screen—a collection of stories th
 
 ## The Value of Shared Experiences
 
-Each story you will find in these pages carries with it the divine imprint of a **[Heavenly Father](glosario/cristo)** who knows His children individually. These are accounts of ordinary people who discovered extraordinary truths in life's simplest moments: learning to ride a bicycle, the **[love](glosario/caridad)** of a **[Primary](glosario/primaria)** teacher, a neighbor's kindness, or **[faith](glosario/testimonio)** that grows stronger amid adversities.
+Each story you will find in these pages carries with it the divine imprint of a Heavenly Father who knows His children individually. These are accounts of ordinary people who discovered extraordinary truths in life's simplest moments: learning to ride a bicycle, the love of a Primary teacher, a neighbor's kindness, or faith that grows stronger amid adversities.
 
-These are not invented tales or moralizing fables. They are real testimonies of how the **[Gospel of Jesus Christ](glosario/evangelio-de-jesucristo)** transforms ordinary lives into sacred experiences. Each chapter is a window into the human soul, where the everyday becomes transcendent and the simple reveals the profound.
+These are not invented tales or moralizing fables. They are real testimonies of how the Gospel of Jesus Christ transforms ordinary lives into sacred experiences. Each chapter is a window into the human soul, where the everyday becomes transcendent and the simple reveals the profound.
 
 ## A Personal Invitation
 
-As you read these pages, I invite you not to be merely a spectator, but an active participant. Allow each story to touch the most intimate fibers of your being. Perhaps you'll find echoes of your own story in these experiences, or maybe you'll discover new ways to see the **[mission](glosario/mision)** you have in this life.
+As you read these pages, I invite you not to be merely a spectator, but an active participant. Allow each story to touch the most intimate fibers of your being. Perhaps you'll find echoes of your own story in these experiences, or maybe you'll discover new ways to see the mission you have in this life.
 
-These stories speak of **[love](glosario/caridad)**, **[service](glosario/ministrar)**, **[faith](glosario/testimonio)**, hope, and **[charity](glosario/caridad)**. They tell of **[missionaries](glosario/elderes)** and **[sister missionaries](glosario/hermanas-misioneras)** who found purpose in their calling, of **[ward members](glosario/miembro)** who learned the value of **[sacrifice](glosario/diezmo)**, and of families who discovered the power of **[prayer](glosario/oracion)** and **[scripture study](glosario/leer-las-escrituras)**.
+These stories speak of love, service, faith, hope, and charity. They tell of elders and sister missionaries who found purpose in their calling, of ward members who learned the value of tithing, and of families who discovered the power of prayer and scripture study.
 
 ## The Transformative Power of Stories
 
-There is something deeply sacred about sharing our spiritual experiences. When we open our hearts and relate how God has worked in our lives, we not only bless those who listen to us, but we also strengthen our own **[testimony](glosario/testimonio)**. Each story in this book is an invitation to recognize the Lord's hand in the smallest details of our existence.
+There is something deeply sacred about sharing our spiritual experiences. When we open our hearts and relate how God has worked in our lives, we not only bless those who listen to us, but we also strengthen our own testimony. Each story in this book is an invitation to recognize the Lord's hand in the smallest details of our existence.
 
-As we read about the **[mission president](glosario/presidente-de-mision)** who guided with wisdom, about the **[priesthood](glosario/sacerdocio)** that blesses and heals, or about **[revelations](glosario/revelacion)** that come through the **[Holy Spirit](glosario/espiritu-santo)**, we will remember that we too are protagonists of our own sacred story.
+As we read about the mission president who guided with wisdom, about the priesthood that blesses and heals, or about revelations that come through the Holy Spirit, we will remember that we too are protagonists of our own sacred story.
 
 ## A Legacy of Faith
 
-**"Treasures of My Soul"** is more than a collection of memories; it is a legacy of faith that is transmitted from heart to heart, from generation to generation. Each experience related here is a link in the golden chain of the restored **[Gospel](glosario/evangelio-de-jesucristo)**, a living proof that **[Christ](glosario/cristo)** lives and that His church is on earth to bless His children.
+**"Treasures of My Soul"** is more than a collection of memories; it is a legacy of faith that is transmitted from heart to heart, from generation to generation. Each experience related here is a link in the golden chain of the restored Gospel, a living proof that Christ lives and that His church is on earth to bless His children.
 
 I hope that upon finishing reading these accounts, your soul will be more enriched, your faith more strengthened, and your heart fuller with gratitude toward Him who is the source of all goodness and truth.
 
 ## A Final Reflection
 
-As you navigate through these pages, whether in Spanish, English, or Portuguese, remember that the language of the heart is universal. **[Love](glosario/caridad)** feels the same in any language, **[faith](glosario/testimonio)** transcends cultural barriers, and truth resonates in every sincere heart.
+As you navigate through these pages, whether in Spanish, English, or Portuguese, remember that the language of the heart is universal. Love feels the same in any language, faith transcends cultural barriers, and truth resonates in every sincere heart.
 
-May these **treasures of the soul** also become your treasures, and may you be able to write your own story of **[faith](glosario/testimonio)**, **[hope](glosario/revelacion)**, and **[charity](glosario/caridad)**.
+May these **treasures of the soul** also become your treasures, and may you be able to write your own story of faith, hope, and charity.
 
 ---
 
