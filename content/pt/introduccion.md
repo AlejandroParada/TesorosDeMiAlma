@@ -1,42 +1,48 @@
 # Introdução
 
-> **"Mas aquele que beber da água que eu lhe der nunca terá sede, porque a água que eu lhe der se fará nele uma fonte de água que salte para a vida eterna."** (João 4:14)
+> **"Mas aquele que beber da água que eu lhe der nunca terá sede, porque a água que eu lhe der se fará nele uma fonte de água a jorrar para a vida eterna."** (João 4:14)
 
 > **"Porque onde estiver o vosso tesouro, aí estará também o vosso coração."** (Mateus 6:21)
 
-Querido leitor,
+Caro leitor,
 
-Você tem em suas mãos —ou diante da tela— uma coleção de relatos nascidos da experiência e escritos com o coração. **Tesouros da Minha Alma** não pretende ser um tratado; é um baú de vivências que marcaram o caminho de fé daqueles que as protagonizaram, e também o meu.
+Você tem em suas mãos—ou diante da tela—uma coleção íntima de relatos que nasceram da vida real e foram escritos com a alma. **Tesouros da Minha Alma** não é um livro de teoria nem um manual de instruções; é o coração aberto de quem caminhou por sendas de fé, dúvida, revelação e descobrimento, e decidiu compartilhar esses momentos sagrados com você.
 
-## O valor das experiências compartilhadas
+## Histórias reais, nomes verdadeiros, corações autênticos
 
-Cada história nestas páginas traz a marca de um Pai Celestial que conhece Seus filhos de forma individual. São relatos de pessoas comuns que encontraram verdades extraordinárias no que é simples: aprender a andar de bicicleta, o amor de uma professora da Primária, a bondade de um vizinho, ou a fé que se fortalece no meio da adversidade.
+Cada relato destas páginas respira autenticidade. Aqui você encontrará a visita noturna de um pai falecido em sonhos sagrados, a jornada missionária em bicicletas sem corrente pelas estradas do Chile, o encontro com um desconhecido na sala de espera de um hospital que ensinou mais sobre discipulado que muitos sermões, ou a impressão urgente do Espírito que levou a visitar um amigo justo quando ele mais precisava.
 
-Não são histórias inventadas nem fábulas moralizantes. São testemunhos reais de como o Evangelho de Jesus Cristo transforma o ordinário em sagrado. Cada capítulo é uma janela para a alma, onde o cotidiano se torna transcendente e o simples revela o profundo.
+São experiências íntimas onde o divino se encontra com o humano nos menores detalhes: um "velhinho" na capela que encontrou ternura onde antes havia dureza, um padre católico uruguaio nos anos quarenta que sem saber preparou o caminho para o Evangelho restaurado, ou um recém-batizado cujas únicas palavras—"Creio que Cristo faria o mesmo"—iluminaram toda uma noite de angústia.
 
-## Um convite pessoal
+Estas não são histórias inspiradoras inventadas para edificar. São fragmentos de vida real, com nomes, lugares e datas específicas, onde o Senhor deixou Sua marca em experiências cotidianas que se tornaram sagradas.
 
-Ao ler estas páginas, convido você a não ser apenas espectador, mas participante. Permita que cada relato toque o que há de mais íntimo em você. Talvez você encontre ecos da sua própria história, ou descubra novas formas de ver a missão que tem nesta vida.
+## Um convite ao profundo
 
-Estas histórias falam de amor, serviço, fé, esperança e caridade. Falam de elders e sisters que encontraram propósito em seu chamado; de membros da ala que aprenderam o valor do dízimo; e de famílias que descobriram o poder da oração e de ler as escrituras.
+Ao ler estas páginas, convido você a adentrar o íntimo. Não são relatos para observar de longe; são experiências para sentir de perto. Cada capítulo é uma confissão da alma, uma janela para esses momentos onde o véu entre o terreno e o eterno se afina mais, revelando que Deus conhece Seus filhos pelo nome.
 
-## O poder transformador dos relatos
+Aqui você verá como uma criança cantando hinos junto a um idoso pode amolecer um coração endurecido ao ponto de sua própria filha buscar desesperadamente essa paz. Conhecerá a angústia de um missionário que descobre, ao final do dia, que sua bicicleta não tinha corrente e a de seu companheiro não tinha freios, mas chegaram sãos porque Alguém cuidou de cada pedalada. Sentirá a urgência do Espírito Santo sussurrando "vá hoje, não demore" para chegar justo a tempo onde mais se precisa de esperança.
 
-Há algo sagrado em compartilhar o que Deus fez em nossa vida. Ao abrir o coração, não apenas abençoamos quem escuta: também fortalecemos nosso próprio testemunho. Cada relato deste livro é um convite a reconhecer a mão do Senhor nos pequenos detalhes da existência.
+## A vulnerabilidade que cura
 
-Ao ler sobre um presidente de missão que guiou com sabedoria, sobre o sacerdócio que abençoa e cura, ou sobre as revelações que chegam pelo Espírito Santo, lembramos que também nós somos protagonistas de uma história sagrada.
+Há algo profundamente curativo na honestidade espiritual. Cada relato deste livro nasceu da decisão de ser vulnerável: de contar não apenas os milagres evidentes, mas também as dúvidas silenciosas, os momentos de escuridão onde a fé vacila, e esses instantes sagrados onde tudo faz sentido.
 
-## Um legado de fé
+Aqui você não encontrará versões polidas de experiências perfeitas. Encontrará a beleza crua da vida real tocada pelo divino: um homem em cadeira de rodas lutando contra o desespero que recebe bem na hora um kit de artesanato e uma razão para seguir adiante; um recém-convertido que sem saber se torna anjo numa sala de hospital; ou um pai que do outro lado do véu vem em sonhos ensinar que a vida continua e o amor familiar é eterno.
 
-**Tesouros da Minha Alma** é mais do que uma coleção de memórias. É um legado de fé que passa de coração a coração, de geração em geração. Cada experiência narrada aqui é um elo na corrente do Evangelho restaurado: uma prova viva de que Cristo vive e de que Sua Igreja está sobre a terra para abençoar Seus filhos.
+## Um testemunho sem verniz
 
-Espero que, ao terminar estes relatos, sua alma se sinta mais enriquecida, sua fé mais firme e seu coração mais grato Àquele que é a fonte de toda bondade e verdade.
+**Tesouros da Minha Alma** é o testemunho sem adornos de uma vida tocada por Cristo. Não é a biografia de um santo nem a história de alguém especial. É o relato honesto de um homem comum que viu a mão de Deus em lugares inesperados: numa sala de espera hospitalar, numa estrada empoeirada rumo à cordilheira, nos sonhos onde os que já partiram voltam para consolar, na insistência do Espírito que não aceita demoras.
 
-## Uma última reflexão
+Cada experiência aqui narrada é uma prova íntima de que o Evangelho de Jesus Cristo não é apenas doutrina para estudar, mas vida para viver. Que o Senhor conhece nossas circunstâncias exatas, nossos nomes verdadeiros e o momento preciso em que mais precisamos de Sua intervenção.
 
-Enquanto lê estas páginas —em espanhol, inglês ou português—, lembre-se de que a linguagem do coração é universal. O amor se sente igual em qualquer língua; a fé atravessa barreiras culturais; e a verdade ressoa em todo coração sincero.
+Se ao terminar estes relatos você sentir que sua própria vida também está cheia de pequenos milagres despercebidos, que você também foi guiado por impressões divinas, e que também em sua história comum há momentos sagrados esperando ser reconhecidos, então este livro terá cumprido seu propósito.
 
-Que estes tesouros da alma se tornem também seus, e que você possa escrever sua própria história de fé, esperança e caridade.
+## Uma última confissão
+
+Compartilhei com você estes fragmentos da minha alma não porque minha vida seja extraordinária, mas precisamente porque não é. Sou um homem comum com dúvidas comuns, temores usuais e uma fé que às vezes vacila. Mas nessa vida ordinária vi o extraordinário de Deus operando nos detalhes.
+
+Se algo aprendi é isto: não precisamos ser especiais para viver experiências sagradas. Só precisamos estar atentos, dispostos e suficientemente humildes para reconhecer que em nossos dias cotidianos—cheios de bicicletas sem corrente, visitas a hospitais, chamados do Espírito e encontros inesperados—Deus está escrevendo uma história de redenção.
+
+Enquanto lê estas páginas, lembre-se de que você também é protagonista de sua própria coleção de tesouros sagrados. Só precisa de olhos para ver e um coração disposto a reconhecer que em sua história comum, Cristo também está presente, cuidando de cada passo, sussurrando em cada decisão e convertendo o ordinário em eterno.
 
 ---
 
@@ -46,4 +52,4 @@ Alejandro Parada Taibo
 
 ---
 
-*"E agora, depois dos muitos testemunhos que foram dados dele, este é o testemunho, último de todos, que nós damos dele: Que ele vive!"* (Doutrina e Convênios 76:22)
+*"E agora, depois de muitos testemunhos que se deram dele, este é o testemunho, último de todos, que nós damos dele: Que ele vive!"* (Doutrina e Convênios 76:22)

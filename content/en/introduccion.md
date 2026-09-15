@@ -1,42 +1,48 @@
 # Introduction
 
-> **"But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life."** (John 4:14)
+> **"But whoever drinks the water I give them will never thirst. Indeed, the water I give them will become in them a spring of water welling up to eternal life."** (John 4:14)
 
-> **"For where your treasure is, there will your heart be also."** (Matthew 6:21)
+> **"For where your treasure is, there your heart will be also."** (Matthew 6:21)
 
 Dear reader,
 
-You hold in your hands—or before a screen—a collection of stories born from experience and written from the heart. **Treasures of My Soul** is not meant to be a treatise; it is a chest of lived moments that marked the path of faith of those who lived them, and mine as well.
+You hold in your hands—or before your screen—an intimate collection of stories born from real life and written with the soul. **Treasures of My Soul** is not a book of theory or an instruction manual; it is the open heart of one who has walked paths of faith, doubt, revelation, and discovery, and has decided to share those sacred moments with you.
 
-## The value of shared experiences
+## Real stories, true names, authentic hearts
 
-Each story in these pages carries the imprint of a Heavenly Father who knows His children individually. These are accounts of ordinary people who found extraordinary truths in simple things: learning to ride a bicycle, the love of a Primary teacher, a neighbor's kindness, or faith that grows stronger in the midst of adversity.
+Every story in these pages breathes authenticity. Here you will find the nighttime visit of a deceased father in sacred dreams, the missionary journey on bikes without chains through the roads of Chile, the encounter with a stranger in a hospital waiting room who taught more about discipleship than many sermons, or the urgent impression of the Spirit that led to visiting a friend just when he needed it most.
 
-These are not invented tales or moralizing fables. They are real testimonies of how the Gospel of Jesus Christ turns the ordinary into something sacred. Each chapter is a window into the soul, where everyday life becomes transcendent and the simple reveals the profound.
+These are intimate experiences where the divine meets the human in the smallest details: an elderly man in the chapel who found tenderness where there had been hardness, a Uruguayan Catholic priest in the 1940s who unknowingly prepared the way for the restored Gospel, or a newly baptized man whose only words—"I believe Christ would do the same"—illuminated an entire night of anguish.
 
-## A personal invitation
+These are not inspiring tales invented to edify. They are fragments of real life, with names, places, and specific dates, where the Lord has left His mark on everyday experiences that became sacred.
 
-As you read these pages, I invite you not to be only a spectator, but a participant. Allow each story to touch what is most intimate in you. You may find echoes of your own story, or discover new ways to see the mission you have in this life.
+## An invitation to go deep
 
-These stories speak of love, service, faith, hope, and charity. They tell of elders and sister missionaries who found purpose in their calling; of ward members who learned the value of tithing; and of families who discovered the power of prayer and of reading the scriptures.
+As you read these pages, I invite you to delve into the intimate. These are not stories to observe from afar; they are experiences to feel up close. Each chapter is a confession of the soul, a window into those moments where the veil between the earthly and the eternal grows finer, revealing that God knows His children by name.
 
-## The transforming power of stories
+Here you will see how a child singing hymns beside an elderly man can soften a hardened heart to the point where his own daughter desperately seeks that peace. You will know the anguish of a missionary who discovers, at the end of the day, that his bicycle had no chain and his companion's had no brakes, yet they arrived safely because Someone watched over every pedal stroke. You will feel the urgency of the Holy Spirit whispering "go today, don't delay" to arrive just in time where hope is most needed.
 
-There is something sacred about sharing what God has done in our lives. When we open our hearts, we do not only bless those who listen—we also strengthen our own testimony. Each account in this book is an invitation to recognize the Lord's hand in the small details of existence.
+## The vulnerability that heals
 
-As we read about a mission president who led with wisdom, about the priesthood that blesses and heals, or about revelations that come through the Holy Ghost, we remember that we too are protagonists of a sacred story.
+There is something profoundly healing in spiritual honesty. Every story in this book was born from the decision to be vulnerable: to tell not only the evident miracles, but also the silent doubts, the moments of darkness where faith wavers, and those sacred instants where everything makes sense.
 
-## A legacy of faith
+Here you will not find polished versions of perfect experiences. You will find the raw beauty of real life touched by the divine: a man in a wheelchair fighting despair who receives just in time a craft kit and a reason to keep going; a new convert who unknowingly becomes an angel in a hospital room; or a father who from the other side of the veil comes in dreams to teach that life continues and family love is eternal.
 
-**Treasures of My Soul** is more than a collection of memories. It is a legacy of faith passed from heart to heart, from generation to generation. Each experience told here is a link in the chain of the restored Gospel: living proof that Christ lives and that His Church is on the earth to bless His children.
+## A testimony without varnish
 
-I hope that when you finish these accounts, your soul will feel more enriched, your faith more steady, and your heart more grateful toward Him who is the source of all goodness and truth.
+**Treasures of My Soul** is the unadorned testimony of a life touched by Christ. It is not the biography of a saint or the story of someone special. It is the honest account of an ordinary man who has seen the hand of God in unexpected places: in a hospital waiting room, on a dusty road toward the mountains, in dreams where those who have already passed on return to comfort, in the insistence of the Spirit that accepts no delays.
 
-## A final reflection
+Every experience narrated here is intimate proof that the Gospel of Jesus Christ is not just doctrine to be studied, but life to be lived. That the Lord knows our exact circumstances, our true names, and the precise moment when we most need His intervention.
 
-As you read these pages—whether in Spanish, English, or Portuguese—remember that the language of the heart is universal. Love feels the same in any tongue; faith crosses cultural barriers; and truth resonates in every sincere heart.
+If upon finishing these stories you feel that your own life is also full of unnoticed small miracles, that you too have been guided by divine impressions, and that in your ordinary story there are also sacred moments waiting to be recognized, then this book will have fulfilled its purpose.
 
-May these treasures of the soul become yours as well, and may you write your own story of faith, hope, and charity.
+## One final confession
+
+I have shared these fragments of my soul with you not because my life is extraordinary, but precisely because it is not. I am an ordinary man with common doubts, usual fears, and a faith that sometimes wavers. But in that ordinary life I have seen the extraordinary work of God in the details.
+
+If I have learned anything, it is this: we don't need to be special to live sacred experiences. We only need to be attentive, willing, and humble enough to recognize that in our daily lives—full of bikes without chains, hospital visits, calls from the Spirit, and unexpected encounters—God is writing a story of redemption.
+
+As you read these pages, remember that you too are the protagonist of your own collection of sacred treasures. You only need eyes to see and a heart willing to recognize that in your ordinary story, Christ is also present, caring for every step, whispering in every decision, and turning the ordinary into the eternal.
 
 ---
 

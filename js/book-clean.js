@@ -4,9 +4,11 @@
 
 class BookReader {
     constructor() {
-        this.currentChapter = 0; // Empezar con la introducción
+        this.currentChapter = -2; // Empezar con la portada
         this.totalChapters = 31;
         this.hasIntroduction = true; // Flag para indicar que hay introducción
+        this.hasPortada = true; // Flag para portada
+        this.hasDedicatoria = true; // Flag para dedicatoria
         this.fontSize = localStorage.getItem('fontSize') || 'normal';
         this.theme = localStorage.getItem('theme') || 'light';
         this.lang = window.I18N?.lang || 'es';
@@ -41,7 +43,7 @@ class BookReader {
         this.applyLanguage();
         await this.detectTotalChapters();
         this.loadChapterList();
-        this.loadChapter(this.getUrlChapter() || 0); // Empezar con introducción por defecto
+        this.loadChapter(this.getUrlChapter() || -2); // Empezar con portada por defecto
         this.updateUI();
         this.setupFullscreenOnStart();
     }
@@ -203,8 +205,8 @@ class BookReader {
     }
 
     async loadChapter(chapterNumber) {
-        // Permitir capítulo 0 para introducción
-        const minChapter = this.hasIntroduction ? 0 : 1;
+        // Permitir portada (-2), dedicatoria (-1), introducción (0)
+        const minChapter = this.hasPortada ? -2 : (this.hasDedicatoria ? -1 : (this.hasIntroduction ? 0 : 1));
         if (chapterNumber < minChapter || chapterNumber > this.totalChapters) return;
         const content = document.getElementById('chapter-content');
         if (!content) return;
@@ -227,6 +229,52 @@ class BookReader {
 
     async getContent(chapterNumber) {
         const lang = this.lang || 'es';
+
+        // Manejar portada especial
+        if (chapterNumber === -2) {
+            if (location.protocol.startsWith('http')) {
+                const fileName = 'portada.md';
+                const urls = [
+                    this.url(`content/${lang}/${fileName}`),
+                    lang === 'es' ? this.url(fileName) : null
+                ].filter(Boolean);
+
+                for (const url of urls) {
+                    try {
+                        const response = await fetch(url);
+                        if (response.ok) {
+                            const text = await response.text();
+                            const lines = text.trim().split('\n').filter(l => l.trim());
+                            if (lines.length > 1) return text;
+                        }
+                    } catch (e) {}
+                }
+            }
+            return this.getEmbeddedPortada(lang);
+        }
+
+        // Manejar dedicatoria especial
+        if (chapterNumber === -1) {
+            if (location.protocol.startsWith('http')) {
+                const fileName = 'dedicatoria.md';
+                const urls = [
+                    this.url(`content/${lang}/${fileName}`),
+                    lang === 'es' ? this.url(fileName) : null
+                ].filter(Boolean);
+
+                for (const url of urls) {
+                    try {
+                        const response = await fetch(url);
+                        if (response.ok) {
+                            const text = await response.text();
+                            const lines = text.trim().split('\n').filter(l => l.trim());
+                            if (lines.length > 1) return text;
+                        }
+                    } catch (e) {}
+                }
+            }
+            return this.getEmbeddedDedicatoria(lang);
+        }
 
         // Manejar introducción especial
         if (chapterNumber === 0) {
@@ -327,10 +375,121 @@ Para ver o conteúdo completo, instale o Python e execute o servidor:
         return introductions[language] || introductions['es'];
     }
 
-    updateUI() {
-        const minChapter = this.hasIntroduction ? 0 : 1;
+    getEmbeddedPortada(language) {
+        const portadas = {
+            'es': `<div class="book-cover-page">
+    <img src="assets/portada.jpg" alt="Portada del libro - Cristo consolando">
+    <div class="cover-overlay">
+        <h1 class="cover-title">Tesoros de Mi Alma</h1>
+        <p class="cover-subtitle">Relatos de fe, esperanza y testimonio</p>
+    </div>
+</div>`,
+            'en': `<div class="book-cover-page">
+    <img src="assets/portada.jpg" alt="Book cover - Christ comforting">
+    <div class="cover-overlay">
+        <h1 class="cover-title">Treasures of My Soul</h1>
+        <p class="cover-subtitle">Stories of faith, hope and testimony</p>
+    </div>
+</div>`,
+            'pt': `<div class="book-cover-page">
+    <img src="assets/portada.jpg" alt="Capa do livro - Cristo consolando">
+    <div class="cover-overlay">
+        <h1 class="cover-title">Tesouros da Minha Alma</h1>
+        <p class="cover-subtitle">Relatos de fé, esperança e testemunho</p>
+    </div>
+</div>`
+        };
+        return portadas[language] || portadas['es'];
+    }
+
+    getEmbeddedDedicatoria(language) {
+        const dedicatorias = {
+            'es': `# Dedicatoria
+
+<div class="dedication-page">
+    <div class="dedication-content">
+        <p class="dedication-text">
+            A Mahana Cruzado que me ha impulsado y dio<br>
+            en "el clavo" de lo que necesitaba, y que me<br>
+            ha motivado a terminar de publicar este libro,<br>
+            en esta versión.<br>           
+        </p>
         
-        if (this.currentChapter === 0) {
+        <p class="dedication-text">
+            A todos aquellos que buscan reconocer<br>
+            la mano del Señor en su propia historia,<br>
+            porque también en sus vidas comunes<br>
+            hay tesoros esperando ser descubiertos.
+        </p>
+        
+        <div class="dedication-signature">
+            <p>Con mucho agradecimiento y aprecio,</p>
+            <p><em>Alejandro Parada</em></p>
+        </div>
+    </div>
+</div>`,
+            'en': `# Dedication
+
+<div class="dedication-page">
+    <div class="dedication-content">
+        <p class="dedication-text">
+            To Mahana Cruzado who has encouraged me and hit<br>
+            "the nail on the head" with what I needed, and who<br>
+            has motivated me to finish publishing this book,<br>
+            in this version.<br>           
+        </p>
+        
+        <p class="dedication-text">
+            To all those who seek to recognize<br>
+            the Lord's hand in their own story,<br>
+            because in their ordinary lives too<br>
+            there are treasures waiting to be discovered.
+        </p>
+        
+        <div class="dedication-signature">
+            <p>With much gratitude and appreciation,</p>
+            <p><em>Alejandro Parada</em></p>
+        </div>
+    </div>
+</div>`,
+            'pt': `# Dedicatória
+
+<div class="dedication-page">
+    <div class="dedication-content">
+        <p class="dedication-text">
+            A Mahana Cruzado que me encorajou e acertou<br>
+            "na mosca" sobre o que eu precisava, e que<br>
+            me motivou a terminar de publicar este livro,<br>
+            nesta versão.<br>           
+        </p>
+        
+        <p class="dedication-text">
+            A todos aqueles que buscam reconhecer<br>
+            a mão do Senhor em sua própria história,<br>
+            porque também em suas vidas comuns<br>
+            há tesouros esperando ser descobertos.
+        </p>
+        
+        <div class="dedication-signature">
+            <p>Com muito agradecimento e apreço,</p>
+            <p><em>Alejandro Parada</em></p>
+        </div>
+    </div>
+</div>`
+        };
+        return dedicatorias[language] || dedicatorias['es'];
+    }
+
+    updateUI() {
+        const minChapter = this.hasPortada ? -2 : (this.hasDedicatoria ? -1 : (this.hasIntroduction ? 0 : 1));
+        
+        if (this.currentChapter === -2) {
+            this.setText('chapter-indicator', this.t('cover') || 'Portada');
+            this.setText('bottom-chapter-current', this.t('cover') || 'Portada');
+        } else if (this.currentChapter === -1) {
+            this.setText('chapter-indicator', this.t('dedication') || 'Dedicatoria');
+            this.setText('bottom-chapter-current', this.t('dedication') || 'Dedic.');
+        } else if (this.currentChapter === 0) {
             this.setText('chapter-indicator', this.t('introduction') || 'Introducción');
             this.setText('bottom-chapter-current', this.t('introduction') || 'Intro');
         } else {
@@ -366,6 +525,36 @@ Para ver o conteúdo completo, instale o Python e execute o servidor:
         if (!list) return;
         list.innerHTML = '';
         const label = this.t('chapter.label');
+
+        // Añadir portada si existe
+        if (this.hasPortada) {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = '#';
+            a.dataset.chapter = -2;
+            a.textContent = this.t('cover') || 'Portada';
+            a.onclick = (e) => {
+                e.preventDefault();
+                this.loadChapter(-2);
+            };
+            li.appendChild(a);
+            list.appendChild(li);
+        }
+
+        // Añadir dedicatoria si existe
+        if (this.hasDedicatoria) {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = '#';
+            a.dataset.chapter = -1;
+            a.textContent = this.t('dedication') || 'Dedicatoria';
+            a.onclick = (e) => {
+                e.preventDefault();
+                this.loadChapter(-1);
+            };
+            li.appendChild(a);
+            list.appendChild(li);
+        }
 
         // Añadir introducción si existe
         if (this.hasIntroduction) {

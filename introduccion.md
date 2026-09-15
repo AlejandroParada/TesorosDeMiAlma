@@ -6,37 +6,43 @@
 
 Querido lector,
 
-Tienes en tus manos —o ante la pantalla— una colección de relatos nacidos de la experiencia y escritos con el corazón. **Tesoros de Mi Alma** no pretende ser un tratado; es un cofre de vivencias que marcaron el sendero de fe de quienes las protagonizaron, y también el mío.
+Tienes en tus manos —o ante la pantalla— una colección íntima de relatos que nacieron de la vida real y se escribieron con el alma. **Tesoros de Mi Alma** no es un libro de teoría ni un manual de instrucciones; es el corazón abierto de quien ha caminado senderos de fe, duda, revelación y descubrimiento, y ha decidido compartir esos momentos sagrados contigo.
 
-## El valor de las experiencias compartidas
+## Historias reales, nombres verdaderos, corazones auténticos
 
-Cada historia de estas páginas lleva la huella de un Padre Celestial que conoce a Sus hijos de manera individual. Son relatos de personas comunes que hallaron verdades extraordinarias en lo sencillo: aprender a andar en bicicleta, el amor de una maestra de Primaria, la bondad de un vecino, o la fe que se fortalece en medio de la adversidad.
+Cada relato de estas páginas respira autenticidad. Aquí encontrarás la visita nocturna de un padre fallecido en sueños sagrados, la travesía misionera en bicicletas sin cadena por los caminos de Chile, el encuentro con un desconocido en la sala de espera de un hospital que enseñó más sobre el discipulado que muchos sermones, o la impresión urgente del Espíritu que llevó a visitar a un amigo justo cuando más lo necesitaba.
 
-No son cuentos inventados ni fábulas moralizantes. Son testimonios reales de cómo el Evangelio de Jesucristo transforma lo ordinario en sagrado. Cada capítulo es una ventana al alma, donde lo cotidiano se vuelve trascendente y lo simple revela lo profundo.
+Son experiencias íntimas donde lo divino se encuentra con lo humano en los detalles más pequeños: un "viejito" en la capilla que encontró ternura donde antes había dureza, un cura católico uruguayo en los años cuarenta que sin saberlo preparó el camino para el Evangelio restaurado, o un recién bautizado cuyas únicas palabras —"Creo que Cristo haría lo mismo"— iluminaron toda una noche de angustia.
 
-## Una invitación personal
+Estos no son cuentos inspiradores inventados para edificar. Son fragmentos de vida real, con nombres, lugares y fechas específicas, donde el Señor ha dejado Su huella en experiencias cotidianas que se volvieron sagradas.
 
-Al leer estas páginas, te invito a no ser solo espectador, sino participante. Permite que cada relato toque lo íntimo de tu ser. Quizá encuentres ecos de tu propia historia, o descubras nuevas formas de ver la misión que tienes en esta vida.
+## Una invitación a lo profundo
 
-Estas historias hablan de amor, servicio, fe, esperanza y caridad. Hablan de élderes y hermanas misioneras que hallaron propósito en su llamado; de miembros de barrio que aprendieron el valor del diezmo; y de familias que descubrieron el poder de la oración y de leer las escrituras.
+Al leer estas páginas, te invito a adentrarte en lo íntimo. No son relatos para observar desde lejos; son experiencias para sentir de cerca. Cada capítulo es una confesión del alma, una ventana a esos momentos donde el velo entre lo terrenal y lo eterno se afina más, y donde se revela que Dios conoce a Sus hijos por su nombre.
 
-## El poder transformador de los relatos
+Aquí verás cómo un niño cantando himnos junto a un anciano puede ablandar un corazón endurecido hasta el punto de que su propia hija busque desesperadamente esa paz. Conocerás la angustia de un misionero que descubre, al final del día, que su bicicleta no tenía cadena y la de su compañero no tenía frenos, pero que llegaron sanos porque Alguien cuidó cada pedalada. Sentirás la urgencia del Espíritu Santo susurrando "ve hoy, no demores" para llegar justo a tiempo donde más se necesita esperanza.
 
-Hay algo sagrado en compartir lo que Dios ha hecho en nuestra vida. Al abrir el corazón, no solo bendecimos a quien escucha: también fortalecemos nuestro propio testimonio. Cada relato de este libro es una invitación a reconocer la mano del Señor en los detalles pequeños de la existencia.
+## La vulnerabilidad que sana
 
-Al leer sobre un presidente de misión que guió con sabiduría, sobre el sacerdocio que bendice y sana, o sobre las revelaciones que llegan por el Espíritu Santo, recordamos que también nosotros somos protagonistas de una historia sagrada.
+Hay algo profundamente sanador en la honestidad espiritual. Cada relato de este libro nació de la decisión de ser vulnerable: de contar no solo los milagros evidentes, sino también las dudas silenciosas, los momentos de oscuridad donde la fe se tambalea, y esos instantes sagrados donde todo cobra sentido.
 
-## Un legado de fe
+Aquí no encontrarás versiones pulidas de experiencias perfectas. Encontrarás la cruda belleza de la vida real tocada por lo divino: un hombre en silla de ruedas luchando contra la desesperanza que recibe justo a tiempo un kit de artesanías y una razón para seguir adelante; un recién convertido que sin saberlo se convierte en ángel en una sala de hospital; o un padre que desde el otro lado del velo viene en sueños a enseñar que la vida continúa y el amor familiar es eterno.
 
-**Tesoros de Mi Alma** es más que una colección de memorias. Es un legado de fe que pasa de corazón a corazón, de generación en generación. Cada experiencia aquí narrada es un eslabón en la cadena del Evangelio restaurado: una prueba viva de que Cristo vive y de que Su Iglesia está sobre la tierra para bendecir a Sus hijos.
+## Un testimonio sin barniz
 
-Espero que, al terminar estos relatos, tu alma se sienta más enriquecida, tu fe más firme y tu corazón más agradecido hacia Aquel que es fuente de toda bondad y verdad.
+**Tesoros de Mi Alma** es el testimonio sin adornos de una vida tocada por Cristo. No es la biografía de un santo ni la historia de alguien especial. Es el relato honesto de un hombre común que ha visto la mano de Dios en lugares inesperados: en una sala de espera hospitalaria, en un camino polvoriento hacia la cordillera, en los sueños donde los que ya pasaron vuelven a consolar, en la insistencia del Espíritu que no acepta demoras.
 
-## Una última reflexión
+Cada experiencia aquí narrada es una prueba íntima de que el Evangelio de Jesucristo no es solo doctrina que se estudia, sino vida que se vive. Que el Señor conoce nuestras circunstancias exactas, nuestros nombres verdaderos y el momento preciso en que más necesitamos Su intervención.
 
-Mientras lees estas páginas —en español, inglés o portugués—, recuerda que el idioma del corazón es universal. El amor se siente igual en cualquier lengua; la fe atraviesa barreras culturales; y la verdad resuena en todo corazón sincero.
+Si al terminar estos relatos sientes que tu propia vida también está llena de pequeños milagros desapercibidos, que también tú has sido guiado por impresiones divinas, y que también en tu historia común hay momentos sagrados esperando ser reconocidos, entonces este libro habrá cumplido su propósito.
 
-Que estos tesoros del alma se vuelvan también tuyos, y que puedas escribir tu propia historia de fe, esperanza y caridad.
+## Una última confesión
+
+He compartido contigo estos fragmentos de mi alma no porque mi vida sea extraordinaria, sino precisamente porque no lo es. Soy un hombre común con dudas comunes, temores usuales y una fe que a veces tambalea. Pero en esa vida ordinaria he visto lo extraordinario de Dios obrando en los detalles.
+
+Si algo he aprendido es esto: no necesitamos ser especiales para vivir experiencias sagradas. Solo necesitamos estar atentos, dispuestos y lo suficientemente humildes para reconocer que en nuestros días cotidianos —llenos de bicicletas sin cadena, visitas a hospitales, llamadas del Espíritu y encuentros inesperados— Dios está escribiendo una historia de redención.
+
+Mientras lees estas páginas, recuerda que tú también eres protagonista de tu propia colección de tesoros sagrados. Solo necesitas ojos para ver y un corazón dispuesto a reconocer que en tu historia común, Cristo también está presente, cuidando cada paso, susurrando en cada decisión y convirtiendo lo ordinario en eterno.
 
 ---
 
