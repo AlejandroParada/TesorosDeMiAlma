@@ -9,20 +9,21 @@ class GlosarioManager {
         this.currentTerm = null;
         this.glossaryTerms = [
             'primaria', 'misión', 'mision', 'sociedad de socorro', 'templo', 'obispo', 'barrio',
-            'elderes', 'élderes', 'hermanas misioneras', 'hermana misionera', 'diezmo', 'miembro',
-            'leer las escrituras', 'escrituras', 'oración', 'libro de mormón', 'el libro de mormón', 'otro lado',
-            'evangelio de jesucristo', 'el evangelio de jesucristo', 'evangelio', 'testimonio', 'ministrar',
-            'bendición', 'bendicion', 'sacerdocio', 'presidente de misión', 'presidente de mision', 'revelación', 'revelacion', 'espíritu santo', 'espiritu santo', 'estaca', 'cristo', 'jesucristo', 'caridad',
+            'elderes', 'élderes', 'hermanas misioneras', 'hermana misionera', 'diezmo', 'miembro', 'miembros',
+            'leer las escrituras', 'escrituras', 'oración', 'oraciones', 'libro de mormón', 'el libro de mormón', 'otro lado',
+            'evangelio de jesucristo', 'el evangelio de jesucristo', 'evangelio', 'testimonio', 'testimonios', 'ministrar',
+            'bendición', 'bendicion', 'bendiciones', 'bendicions', 'sacerdocio', 'presidente de misión', 'presidente de mision',
+            'revelación', 'revelacion', 'revelaciones', 'espíritu santo', 'espiritu santo', 'estaca', 'cristo', 'jesucristo', 'caridad',
             'primary', 'mission', 'relief society', 'temple', 'bishop', 'ward',
-            'elders', 'sister missionaries', 'sister missionary', 'tithing', 'member',
-            'scripture study', 'scriptures', 'prayer', 'book of mormon', 'the book of mormon', 'other side',
-            'gospel of jesus christ', 'the gospel of jesus christ', 'gospel', 'testimony', 'ministering', 'minister',
-            'blessing', 'priesthood', 'mission president', 'revelation', 'holy spirit', 'holy ghost', 'stake', 'christ', 'jesus christ', 'charity',
+            'elders', 'sister missionaries', 'sister missionary', 'tithing', 'member', 'members',
+            'scripture study', 'scriptures', 'prayer', 'prayers', 'book of mormon', 'the book of mormon', 'other side',
+            'gospel of jesus christ', 'the gospel of jesus christ', 'gospel', 'testimony', 'testimonies', 'ministering', 'minister',
+            'blessing', 'blessings', 'priesthood', 'mission president', 'revelation', 'revelations', 'holy spirit', 'holy ghost', 'stake', 'christ', 'jesus christ', 'charity',
             'primária', 'missão', 'bispo', 'ala',
-            'irmãs missionárias', 'irmã missionária', 'dízimo', 'sister', 'sisters', 'membro',
-            'estudo das escrituras', 'escrituras', 'oração', 'livro de mórmon', 'o livro de mórmon', 'outro lado',
-            'evangelho de jesus cristo', 'o evangelho de jesus cristo', 'evangelho', 'testemunho', 'ministrar',
-            'bênção', 'sacerdócio', 'presidente de missão', 'revelação', 'espírito santo', 'estaca', 'cristo', 'jesus cristo', 'caridade'
+            'irmãs missionárias', 'irmã missionária', 'dízimo', 'sister', 'sisters', 'membro', 'membros',
+            'estudo das escrituras', 'escrituras', 'oração', 'orações', 'livro de mórmon', 'o livro de mórmon', 'outro lado',
+            'evangelho de jesus cristo', 'o evangelho de jesus cristo', 'evangelho', 'testemunho', 'testemunhos', 'ministrar',
+            'bênção', 'bênçãos', 'sacerdócio', 'presidente de missão', 'revelação', 'revelações', 'espírito santo', 'estaca', 'cristo', 'jesus cristo', 'caridade'
         ];
         
         this.init();
@@ -92,16 +93,22 @@ class GlosarioManager {
             'tithing': 'diezmo',
             'dízimo': 'diezmo',
             'miembro': 'miembro',
+            'miembros': 'miembro',
             'member': 'miembro',
+            'members': 'miembro',
             'membro': 'miembro',
+            'membros': 'miembro',
             'leer las escrituras': 'leer-las-escrituras',
             'escrituras': 'leer-las-escrituras',
             'scripture study': 'leer-las-escrituras',
             'scriptures': 'leer-las-escrituras',
             'estudo das escrituras': 'leer-las-escrituras',
             'oración': 'oracion',
+            'oraciones': 'oracion',
             'prayer': 'oracion',
+            'prayers': 'oracion',
             'oração': 'oracion',
+            'orações': 'oracion',
             'libro de mormón': 'libro-de-mormon',
             'el libro de mormón': 'libro-de-mormon',
             'book of mormon': 'libro-de-mormon',
@@ -121,14 +128,22 @@ class GlosarioManager {
             'o evangelho de jesus cristo': 'evangelio-de-jesucristo',
             'evangelho': 'evangelio-de-jesucristo',
             'testimonio': 'testimonio',
+            'testimonios': 'testimonio',
             'testimony': 'testimonio',
+            'testimonies': 'testimonio',
             'testemunho': 'testimonio',
+            'testemunhos': 'testimonio',
             'ministrar': 'ministrar',
             'ministering': 'ministrar',
             'minister': 'ministrar',
+            // Plurales ANTES / más largos que el singular (orden por longitud lo refuerza)
+            'bendiciones': 'bendicion',
+            'bendicions': 'bendicion',
             'bendición': 'bendicion',
             'bendicion': 'bendicion',
+            'blessings': 'bendicion',
             'blessing': 'bendicion',
+            'bênçãos': 'bendicion',
             'bênção': 'bendicion',
             'sacerdocio': 'sacerdocio',
             'priesthood': 'sacerdocio',
@@ -137,9 +152,12 @@ class GlosarioManager {
             'presidente de mision': 'presidente-de-mision',
             'mission president': 'presidente-de-mision',
             'presidente de missão': 'presidente-de-mision',
+            'revelaciones': 'revelacion',
             'revelación': 'revelacion',
             'revelacion': 'revelacion',
+            'revelations': 'revelacion',
             'revelation': 'revelacion',
+            'revelações': 'revelacion',
             'revelação': 'revelacion',
             'espíritu santo': 'espiritu-santo',
             'espiritu santo': 'espiritu-santo',
@@ -148,26 +166,27 @@ class GlosarioManager {
             'espírito santo': 'espiritu-santo',
             'estaca': 'estaca',
             'stake': 'estaca',
-            'cristo': 'cristo',
             'jesucristo': 'cristo',
-            'christ': 'cristo',
             'jesus christ': 'cristo',
             'jesus cristo': 'cristo',
+            'cristo': 'cristo',
+            'christ': 'cristo',
             'caridad': 'caridad',
             'charity': 'caridad',
             'caridade': 'caridad'
         };
 
+        // Letras (incl. PT: ç ã õ â ê ô) para límites de palabra seguros
+        const letter = 'A-Za-zÀ-ÖØ-öø-ÿĀ-ſ';
         // Procesar términos largos primero (evitar parciales:
-        // "Jesucristo" / "Jesus Christ" antes que "Cristo" / "Christ")
+        // "bendiciones" antes que "bendición"; "Jesucristo" antes que "Cristo")
         const terms = Object.keys(termMap).sort((a, b) => b.length - a.length);
         for (const term of terms) {
             const filename = termMap[term];
             const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            const regex = new RegExp(`(?<![\\wáéíóúüñÁÉÍÓÚÜÑ])${escaped}(?![\\wáéíóúüñÁÉÍÓÚÜÑ])`, 'gi');
+            const regex = new RegExp(`(?<![${letter}])${escaped}(?![${letter}])`, 'gi');
             html = html.replace(regex, (match, offset, full) => {
                 // No enlazar si ya estamos dentro de un glossary-link
-                // (evita que "cristo" reaparezca dentro de "Jesucristo" ya enlazado)
                 const before = full.slice(0, offset);
                 const openIdx = before.lastIndexOf('<span class="glossary-link"');
                 const closeIdx = before.lastIndexOf('</span>');

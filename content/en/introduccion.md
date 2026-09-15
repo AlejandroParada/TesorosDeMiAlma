@@ -4,45 +4,45 @@
 
 > **"For where your treasure is, there will your heart be also."** (Matthew 6:21)
 
-Dear Reader,
+Dear reader,
 
-You hold in your hands—or on your device's screen—a collection of stories that were born from the heart and written with the ink of experience. **"Treasures of My Soul"** is not simply a book; it is a treasure chest filled with experiences that have marked the path of faith of those who lived them.
+You hold in your hands—or before a screen—a collection of stories born from experience and written from the heart. **Treasures of My Soul** is not meant to be a treatise; it is a chest of lived moments that marked the path of faith of those who lived them, and mine as well.
 
-## The Value of Shared Experiences
+## The value of shared experiences
 
-Each story you will find in these pages carries with it the divine imprint of a Heavenly Father who knows His children individually. These are accounts of ordinary people who discovered extraordinary truths in life's simplest moments: learning to ride a bicycle, the love of a Primary teacher, a neighbor's kindness, or faith that grows stronger amid adversities.
+Each story in these pages carries the imprint of a Heavenly Father who knows His children individually. These are accounts of ordinary people who found extraordinary truths in simple things: learning to ride a bicycle, the love of a Primary teacher, a neighbor's kindness, or faith that grows stronger in the midst of adversity.
 
-These are not invented tales or moralizing fables. They are real testimonies of how the Gospel of Jesus Christ transforms ordinary lives into sacred experiences. Each chapter is a window into the human soul, where the everyday becomes transcendent and the simple reveals the profound.
+These are not invented tales or moralizing fables. They are real testimonies of how the Gospel of Jesus Christ turns the ordinary into something sacred. Each chapter is a window into the soul, where everyday life becomes transcendent and the simple reveals the profound.
 
-## A Personal Invitation
+## A personal invitation
 
-As you read these pages, I invite you not to be merely a spectator, but an active participant. Allow each story to touch the most intimate fibers of your being. Perhaps you'll find echoes of your own story in these experiences, or maybe you'll discover new ways to see the mission you have in this life.
+As you read these pages, I invite you not to be only a spectator, but a participant. Allow each story to touch what is most intimate in you. You may find echoes of your own story, or discover new ways to see the mission you have in this life.
 
-These stories speak of love, service, faith, hope, and charity. They tell of elders and sister missionaries who found purpose in their calling, of ward members who learned the value of tithing, and of families who discovered the power of prayer and scripture study.
+These stories speak of love, service, faith, hope, and charity. They tell of elders and sister missionaries who found purpose in their calling; of ward members who learned the value of tithing; and of families who discovered the power of prayer and of reading the scriptures.
 
-## The Transformative Power of Stories
+## The transforming power of stories
 
-There is something deeply sacred about sharing our spiritual experiences. When we open our hearts and relate how God has worked in our lives, we not only bless those who listen to us, but we also strengthen our own testimony. Each story in this book is an invitation to recognize the Lord's hand in the smallest details of our existence.
+There is something sacred about sharing what God has done in our lives. When we open our hearts, we do not only bless those who listen—we also strengthen our own testimony. Each account in this book is an invitation to recognize the Lord's hand in the small details of existence.
 
-As we read about the mission president who guided with wisdom, about the priesthood that blesses and heals, or about revelations that come through the Holy Spirit, we will remember that we too are protagonists of our own sacred story.
+As we read about a mission president who led with wisdom, about the priesthood that blesses and heals, or about revelations that come through the Holy Ghost, we remember that we too are protagonists of a sacred story.
 
-## A Legacy of Faith
+## A legacy of faith
 
-**"Treasures of My Soul"** is more than a collection of memories; it is a legacy of faith that is transmitted from heart to heart, from generation to generation. Each experience related here is a link in the golden chain of the restored Gospel, a living proof that Christ lives and that His church is on earth to bless His children.
+**Treasures of My Soul** is more than a collection of memories. It is a legacy of faith passed from heart to heart, from generation to generation. Each experience told here is a link in the chain of the restored Gospel: living proof that Christ lives and that His Church is on the earth to bless His children.
 
-I hope that upon finishing reading these accounts, your soul will be more enriched, your faith more strengthened, and your heart fuller with gratitude toward Him who is the source of all goodness and truth.
+I hope that when you finish these accounts, your soul will feel more enriched, your faith more steady, and your heart more grateful toward Him who is the source of all goodness and truth.
 
-## A Final Reflection
+## A final reflection
 
-As you navigate through these pages, whether in Spanish, English, or Portuguese, remember that the language of the heart is universal. Love feels the same in any language, faith transcends cultural barriers, and truth resonates in every sincere heart.
+As you read these pages—whether in Spanish, English, or Portuguese—remember that the language of the heart is universal. Love feels the same in any tongue; faith crosses cultural barriers; and truth resonates in every sincere heart.
 
-May these **treasures of the soul** also become your treasures, and may you be able to write your own story of faith, hope, and charity.
+May these treasures of the soul become yours as well, and may you write your own story of faith, hope, and charity.
 
 ---
 
 *With love and hope in Christ,*
 
-*The Author*
+Alejandro Parada Taibo
 
 ---
 

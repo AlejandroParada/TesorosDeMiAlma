@@ -6,43 +6,43 @@
 
 Querido lector,
 
-Tienes en tus manos —o en la pantalla de tu dispositivo— una colección de relatos que nacieron del corazón y se escribieron con la tinta de la experiencia. **"Tesoros de Mi Alma"** no es simplemente un libro; es un cofre lleno de vivencias que han marcado el sendero de fe de quienes las protagonizaron.
+Tienes en tus manos —o ante la pantalla— una colección de relatos nacidos de la experiencia y escritos con el corazón. **Tesoros de Mi Alma** no pretende ser un tratado; es un cofre de vivencias que marcaron el sendero de fe de quienes las protagonizaron, y también el mío.
 
 ## El valor de las experiencias compartidas
 
-Cada historia que encontrarás en estas páginas lleva consigo la huella divina de un Padre Celestial que conoce a Sus hijos individualmente. Son relatos de personas comunes que descubrieron verdades extraordinarias en los momentos más simples de la vida: aprender a andar en bicicleta, el amor de una maestra de Primaria, la bondad de un vecino, o la fe que se fortalece en medio de las adversidades.
+Cada historia de estas páginas lleva la huella de un Padre Celestial que conoce a Sus hijos de manera individual. Son relatos de personas comunes que hallaron verdades extraordinarias en lo sencillo: aprender a andar en bicicleta, el amor de una maestra de Primaria, la bondad de un vecino, o la fe que se fortalece en medio de la adversidad.
 
-Estos no son cuentos inventados ni fábulas moralizantes. Son testimonios reales de cómo el Evangelio de Jesucristo transforma vidas ordinarias en experiencias sagradas. Cada capítulo es una ventana hacia el alma humana, donde lo cotidiano se vuelve trascendente y lo simple revela lo profundo.
+No son cuentos inventados ni fábulas moralizantes. Son testimonios reales de cómo el Evangelio de Jesucristo transforma lo ordinario en sagrado. Cada capítulo es una ventana al alma, donde lo cotidiano se vuelve trascendente y lo simple revela lo profundo.
 
 ## Una invitación personal
 
-Al leer estas páginas, te invito a que no seas simplemente un espectador, sino un participante activo. Permite que cada relato toque las fibras más íntimas de tu ser. Quizás encuentres ecos de tu propia historia en estas experiencias, o tal vez descubras nuevas formas de ver la misión que tienes en esta vida.
+Al leer estas páginas, te invito a no ser solo espectador, sino participante. Permite que cada relato toque lo íntimo de tu ser. Quizá encuentres ecos de tu propia historia, o descubras nuevas formas de ver la misión que tienes en esta vida.
 
-Estas historias hablan de amor, servicio, fe, esperanza y caridad. Hablan de elderes y hermanas misioneras que encontraron propósito en su llamado, de miembros de barrio que aprendieron el valor del diezmo, y de familias que descubrieron el poder de la oración y el estudio de las escrituras.
+Estas historias hablan de amor, servicio, fe, esperanza y caridad. Hablan de élderes y hermanas misioneras que hallaron propósito en su llamado; de miembros de barrio que aprendieron el valor del diezmo; y de familias que descubrieron el poder de la oración y de leer las escrituras.
 
 ## El poder transformador de los relatos
 
-Existe algo profundamente sagrado en compartir nuestras experiencias espirituales. Cuando abrimos nuestro corazón y relatamos cómo Dios ha obrado en nuestra vida, no solo bendecimos a quienes nos escuchan, sino que también fortalecemos nuestro propio testimonio. Cada historia en este libro es una invitación a reconocer la mano del Señor en los detalles más pequeños de nuestra existencia.
+Hay algo sagrado en compartir lo que Dios ha hecho en nuestra vida. Al abrir el corazón, no solo bendecimos a quien escucha: también fortalecemos nuestro propio testimonio. Cada relato de este libro es una invitación a reconocer la mano del Señor en los detalles pequeños de la existencia.
 
-Al leer sobre el presidente de misión que guió con sabiduría, sobre el sacerdocio que bendice y sana, o sobre las revelaciones que llegan a través del Espíritu Santo, recordaremos que nosotros también somos protagonistas de nuestra propia historia sagrada.
+Al leer sobre un presidente de misión que guió con sabiduría, sobre el sacerdocio que bendice y sana, o sobre las revelaciones que llegan por el Espíritu Santo, recordamos que también nosotros somos protagonistas de una historia sagrada.
 
 ## Un legado de fe
 
-**"Tesoros de Mi Alma"** es más que una colección de memorias; es un legado de fe que se transmite de corazón a corazón, de generación en generación. Cada experiencia aquí relatada es un eslabón en la cadena dorada del Evangelio restaurado, una prueba viviente de que Cristo vive y que Su iglesia está sobre la tierra para bendecir a Sus hijos.
+**Tesoros de Mi Alma** es más que una colección de memorias. Es un legado de fe que pasa de corazón a corazón, de generación en generación. Cada experiencia aquí narrada es un eslabón en la cadena del Evangelio restaurado: una prueba viva de que Cristo vive y de que Su Iglesia está sobre la tierra para bendecir a Sus hijos.
 
-Espero que al finalizar la lectura de estos relatos, tu alma esté más enriquecida, tu fe más fortalecida, y tu corazón más lleno de gratitud hacia Aquel que es la fuente de toda bondad y verdad.
+Espero que, al terminar estos relatos, tu alma se sienta más enriquecida, tu fe más firme y tu corazón más agradecido hacia Aquel que es fuente de toda bondad y verdad.
 
 ## Una última reflexión
 
-Mientras navegas por estas páginas, ya sea en español, inglés o portugués, recuerda que el idioma del corazón es universal. El amor se siente igual en cualquier lengua, la fe trasciende las barreras culturales, y la verdad resuena en todo corazón sincero.
+Mientras lees estas páginas —en español, inglés o portugués—, recuerda que el idioma del corazón es universal. El amor se siente igual en cualquier lengua; la fe atraviesa barreras culturales; y la verdad resuena en todo corazón sincero.
 
-Que estos **tesoros del alma** se conviertan también en tus tesoros, y que puedas escribir tu propia historia de fe, esperanza y caridad.
+Que estos tesoros del alma se vuelvan también tuyos, y que puedas escribir tu propia historia de fe, esperanza y caridad.
 
 ---
 
 *Con amor y esperanza en Cristo,*
 
-*El Autor*
+Alejandro Parada Taibo
 
 ---
 
