@@ -1,0 +1,247 @@
+---
+description: Detecta referencias de escrituras SUD (ej. "Alma 5:10", "D&C 121:36") en el texto y las convierte en links completos a churchofjesuschrist.org (ES/EN/PT)
+globs: "**/*.md,**/*.mdx,**/*.txt,**/*.html"
+alwaysApply: false
+---
+
+# Regla: Generador de links de escrituras SUD
+
+Cuando en el texto aparezca una referencia de escritura con el formato
+`Libro Capítulo:Versículo` (o rango `Capítulo:Versículo-Versículo`),
+genera automáticamente el link completo a churchofjesuschrist.org usando
+las tablas de mapeo de abajo.
+
+## Formato de salida (OBLIGATORIO: markdown link)
+
+La referencia de texto plano debe reemplazarse SIEMPRE por un link en
+formato markdown, donde el texto visible es la referencia tal como
+aparece originalmente, y la URL va entre paréntesis:
+
+```
+[Libro Capítulo:Versículo](https://www.churchofjesuschrist.org/study/scriptures/{coleccion}/{slug}/{capitulo}?lang={idioma}&id=p{versiculo}#p{versiculo})
+```
+
+- El texto visible entre corchetes `[...]` debe ser EXACTAMENTE la
+  referencia original tal como está escrita en el documento (mismo
+  formato, mismas mayúsculas, mismos espacios/símbolos como "&" en "D&C").
+- `{coleccion}`: una de `ot`, `nt`, `bofm`, `dc-testament`, `pgp`
+- `{slug}`: código del libro según las tablas de abajo
+- `{capitulo}`: número de capítulo (o de sección en D&C)
+- `{idioma}`: `spa` (español), `eng` (inglés) o `por` (portugués)
+- `{versiculo}`: número de versículo. Si la referencia es un rango (ej. `5:10-12`),
+  usar el PRIMER versículo del rango en `id=p{n}#p{n}`, salvo que se indique
+  lo contrario (ver sección "Rangos de versículos").
+
+### Ejemplo
+
+Texto original: `Alma 5:10` (documento en inglés)
+Resultado:
+`[Alma 5:10](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/5?lang=eng&id=p10#p10)`
+
+Texto original: `Alma 5:10` (documento en español)
+Resultado:
+`[Alma 5:10](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/5?lang=spa&id=p10#p10)`
+
+Texto original: `Alma 5:10` (documento en portugués)
+Resultado:
+`[Alma 5:10](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/5?lang=por&id=p10#p10)`
+
+Texto original: `D&C 121:36`
+Resultado:
+`[D&C 121:36](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng&id=p36#p36)`
+
+Texto original: `Doutrina e Convênios 121:36` (documento en portugués)
+Resultado:
+`[Doutrina e Convênios 121:36](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=por&id=p36#p36)`
+
+## Detección de idioma
+
+- Si el párrafo/documento que contiene la referencia está mayormente en español → `lang=spa`
+- Si está mayormente en inglés → `lang=eng`
+- Si está mayormente en portugués → `lang=por`
+- Pistas útiles para portugués: palabras como `não`, `também`, `você`, `então`,
+  `capítulo`, `versículo`, acentos típicos (`ã`, `õ`, `ç`), o ruta/carpeta `pt`/`por`.
+- Si no se puede determinar por contexto, preguntar al usuario o usar `eng` por defecto.
+
+## Determinación de la colección (a qué "libro de escrituras" pertenece)
+
+Usa esta lógica de decisión, en orden:
+
+1. Si el nombre del libro es `D&C`, `DyC`, `Doctrina y Convenios`,
+   `Doctrine and Covenants`, `Doutrina e Convênios` o `Doutrina e Convenios`
+   → colección = `dc-testament`, slug = `dc`
+   (no hay slug de libro, solo número de sección).
+   - Caso especial: `Declaración Oficial 1` / `Official Declaration 1` /
+     `Declaração Oficial 1` → colección = `dc-testament`, slug = `od`,
+     capítulo = `1` (sin versículo).
+2. Si el nombre del libro coincide con la tabla **Antiguo Testamento** → colección = `ot`
+3. Si el nombre del libro coincide con la tabla **Nuevo Testamento** → colección = `nt`
+4. Si el nombre del libro coincide con la tabla **Libro de Mormón** → colección = `bofm`
+5. Si el nombre del libro coincide con la tabla **Perla de Gran Precio** → colección = `pgp`
+
+## Tabla: Antiguo Testamento (`ot`)
+
+| Nombre (ES / EN / PT) | Slug |
+|---|---|
+| Génesis / Genesis / Gênesis | `gen` |
+| Éxodo / Exodus / Êxodo | `ex` |
+| Levítico / Leviticus / Levítico | `lev` |
+| Números / Numbers / Números | `num` |
+| Deuteronomio / Deuteronomy / Deuteronômio | `deut` |
+| Josué / Joshua / Josué | `josh` |
+| Jueces / Judges / Juízes | `judg` |
+| Rut / Ruth / Rute | `ruth` |
+| 1 Samuel | `1-sam` |
+| 2 Samuel | `2-sam` |
+| 1 Reyes / 1 Kings / 1 Reis | `1-kgs` |
+| 2 Reyes / 2 Kings / 2 Reis | `2-kgs` |
+| 1 Crónicas / 1 Chronicles / 1 Crônicas | `1-chr` |
+| 2 Crónicas / 2 Chronicles / 2 Crônicas | `2-chr` |
+| Esdras / Ezra / Esdras | `ezra` |
+| Nehemías / Nehemiah / Neemias | `neh` |
+| Ester / Esther / Ester | `esth` |
+| Job / Job / Jó | `job` |
+| Salmos / Psalms / Salmos | `ps` |
+| Proverbios / Proverbs / Provérbios | `prov` |
+| Eclesiastés / Ecclesiastes / Eclesiastes | `eccl` |
+| Cantares / Song of Solomon / Cânticos (dos Cânticos) | `song` |
+| Isaías / Isaiah / Isaías | `isa` |
+| Jeremías / Jeremiah / Jeremias | `jer` |
+| Lamentaciones / Lamentations / Lamentações | `lam` |
+| Ezequiel / Ezekiel / Ezequiel | `ezek` |
+| Daniel | `dan` |
+| Oseas / Hosea / Oseias | `hosea` |
+| Joel | `joel` |
+| Amós / Amos / Amós | `amos` |
+| Abdías / Obadiah / Obadias | `obad` (capítulo único: usar `1`) |
+| Jonás / Jonah / Jonas | `jonah` |
+| Miqueas / Micah / Miqueias | `micah` |
+| Nahúm / Nahum / Naum | `nahum` |
+| Habacuc / Habakkuk / Habacuque | `hab` |
+| Sofonías / Zephaniah / Sofonias | `zeph` |
+| Hageo / Haggai / Ageu | `hag` |
+| Zacarías / Zechariah / Zacarias | `zech` |
+| Malaquías / Malachi / Malaquias | `mal` |
+
+## Tabla: Nuevo Testamento (`nt`)
+
+| Nombre (ES / EN / PT) | Slug |
+|---|---|
+| Mateo / Matthew / Mateus | `matt` |
+| Marcos / Mark / Marcos | `mark` |
+| Lucas / Luke / Lucas | `luke` |
+| Juan / John / João | `john` |
+| Hechos / Acts / Atos | `acts` |
+| Romanos / Romans / Romanos | `rom` |
+| 1 Corintios / 1 Corinthians / 1 Coríntios | `1-cor` |
+| 2 Corintios / 2 Corinthians / 2 Coríntios | `2-cor` |
+| Gálatas / Galatians / Gálatas | `gal` |
+| Efesios / Ephesians / Efésios | `eph` |
+| Filipenses / Philippians / Filipenses | `philip` |
+| Colosenses / Colossians / Colossenses | `col` |
+| 1 Tesalonicenses / 1 Thessalonians / 1 Tessalonicenses | `1-thes` |
+| 2 Tesalonicenses / 2 Thessalonians / 2 Tessalonicenses | `2-thes` |
+| 1 Timoteo / 1 Timothy / 1 Timóteo | `1-tim` |
+| 2 Timoteo / 2 Timothy / 2 Timóteo | `2-tim` |
+| Tito / Titus / Tito | `titus` |
+| Filemón / Philemon / Filemom | `philem` |
+| Hebreos / Hebrews / Hebreus | `heb` |
+| Santiago / James / Tiago | `james` |
+| 1 Pedro / 1 Peter / 1 Pedro | `1-pet` |
+| 2 Pedro / 2 Peter / 2 Pedro | `2-pet` |
+| 1 Juan / 1 John / 1 João | `1-jn` |
+| 2 Juan / 2 John / 2 João | `2-jn` |
+| 3 Juan / 3 John / 3 João | `3-jn` |
+| Judas / Jude / Judas | `jude` |
+| Apocalipsis / Revelation / Apocalipse | `rev` |
+
+## Tabla: Libro de Mormón (`bofm`)
+
+| Nombre (ES / EN / PT) | Slug |
+|---|---|
+| 1 Nefi / 1 Nephi / 1 Néfi | `1-ne` |
+| 2 Nefi / 2 Nephi / 2 Néfi | `2-ne` |
+| Jacob / Jacob / Jacó | `jacob` |
+| Enós / Enos / Enos | `enos` |
+| Jarom | `jarom` |
+| Omni / Omni / Ômni | `omni` |
+| Palabras de Mormón / Words of Mormon / Palavras de Mórmon | `w-of-m` |
+| Mosíah / Mosiah / Mosías | `mosiah` |
+| Alma | `alma` |
+| Helamán / Helaman / Helamã | `hel` |
+| 3 Nefi / 3 Nephi / 3 Néfi | `3-ne` |
+| 4 Nefi / 4 Nephi / 4 Néfi | `4-ne` |
+| Mormón / Mormon / Mórmon | `morm` |
+| Éter / Ether / Éter | `ether` |
+| Moroni / Moroni / Morôni | `moro` |
+
+## Doctrina y Convenios (`dc-testament`)
+
+No usa slug de libro; solo número de sección. Formato de URL:
+
+```
+https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/{seccion}?lang={idioma}&id=p{versiculo}#p{versiculo}
+```
+
+Ejemplo: `D&C 121:36` (inglés) →
+`https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng&id=p36#p36`
+
+Ejemplo: `D&C 121:36` (portugués) →
+`https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=por&id=p36#p36`
+
+Declaraciones Oficiales:
+```
+https://www.churchofjesuschrist.org/study/scriptures/dc-testament/od/{numero}?lang={idioma}
+```
+
+## Tabla: Perla de Gran Precio (`pgp`)
+
+| Nombre (ES / EN / PT) | Slug |
+|---|---|
+| Moisés / Moses / Moisés | `moses` |
+| Abraham / Abraham / Abraão | `abr` |
+| José Smith—Mateo / Joseph Smith—Matthew / Joseph Smith—Mateus | `js-m` |
+| José Smith—Historia / Joseph Smith—History / Joseph Smith—História | `js-h` |
+| Artículos de Fe / Articles of Faith / Artigos de Fé | `a-of-f` |
+
+Nota: los facsímiles de Abraham usan `pgp/abr/fac-1`, `fac-2`, `fac-3`
+(sin número de versículo, o con `id=figure{n}_p{n}` según el caso).
+
+## Rangos de versículos
+
+Cuando la referencia sea un rango, ej. `Alma 32:21-23`:
+- El link principal debe apuntar al primer versículo del rango: `id=p21#p21`
+- Si se requiere reflejar el rango completo en la URL (como hace el sitio
+  internamente, ej. `id=p21-p23#p21`), usar ese formato en su lugar:
+  `?lang=eng&id=p21-p23#p21` (o `lang=spa` / `lang=por` según el documento)
+
+Cuando la referencia sea de un solo capítulo sin versículo, ej. `Alma 32`:
+- Omitir `id=` y `#`. Resultado:
+  `[Alma 32](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng)`
+
+## Múltiples referencias en una cadena
+
+Para referencias como `D&C 76:20-24` o listas separadas por `;` (ej.
+`Alma 5:10; Alma 7:3`), generar un link independiente por cada referencia,
+respetando el libro/capítulo de cada una (si el libro no se repite, se
+hereda del anterior, como es común en notas de estudio SUD, ej.
+`Alma 5:10; 7:3` → el segundo hereda `Alma`).
+
+## Comportamiento esperado del asistente
+
+1. Escanear el texto en busca de patrones que coincidan con
+   `NombreDeLibro Capítulo:Versículo(-Versículo)?` o `NombreDeLibro Capítulo`.
+2. Normalizar el nombre del libro (quitar acentos, mayúsculas/minúsculas,
+   abreviaturas comunes como "Gén." / "Gên." = Génesis, "Mat." / "Mt." = Mateo/Mateus,
+   "D&C" = Doctrina y Convenios / Doutrina e Convênios, "Tiago" = James).
+3. Buscar el slug correspondiente en las tablas de arriba (aceptar nombres ES, EN o PT).
+4. Determinar el idioma según el contexto del documento (`spa`, `eng` o `por`).
+5. Construir la URL completa según el formato definido.
+6. Reemplazar la referencia de texto plano por un link en formato
+   **markdown** (`[texto](url)`), conservando el texto visible idéntico
+   al original:
+   `Alma 5:10` → `[Alma 5:10](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/5?lang=eng&id=p10#p10)`
+   - Este formato markdown se usa incluso en archivos `.html`, salvo que
+     el usuario pida explícitamente una etiqueta `<a href="...">`.
+7. Si el nombre del libro no se reconoce en ninguna tabla, no generar link
+   y dejar el texto sin modificar (para evitar URLs incorrectas).
