@@ -14,6 +14,10 @@ class BookReader {
         this.lang = window.I18N?.lang || 'es';
         this.sidebarOpen = window.innerWidth > 768;
         this.base = this.resolveBase();
+        this.contentCache = new Map();
+        this.inflight = new Map();
+        this.loadSeq = 0;
+        this.prefetchToken = 0;
         this.init();
     }
 
@@ -43,9 +47,10 @@ class BookReader {
         this.applyLanguage();
         await this.detectTotalChapters();
         this.loadChapterList();
-        this.loadChapter(this.getUrlChapter() ?? -2); // Empezar con portada por defecto
+        await this.loadChapter(this.getUrlChapter() ?? -2); // Empezar con portada por defecto
         this.updateUI();
         this.setupFullscreenOnStart();
+        this.prefetchChapters();
     }
 
     setupEvents() {
@@ -109,6 +114,7 @@ class BookReader {
         this.loadChapterList();
         this.loadChapter(this.currentChapter);
         this.updateUI();
+        this.prefetchChapters();
     }
 
     applyLanguage() {
@@ -188,10 +194,14 @@ class BookReader {
     async chapterExists(chapterNumber) {
         // Fuente canónica ES: content/es/ (sin duplicados en raíz)
         if (location.protocol.startsWith('http')) {
+            const path = `content/es/${chapterNumber}.md`;
+            if (this.contentCache.get(path)) return true;
             try {
-                const response = await fetch(this.url(`content/es/${chapterNumber}.md`), { cache: 'no-store' });
+                const response = await fetch(this.url(path));
                 if (response.ok) {
                     const text = await response.text();
+                    const useful = this.usefulMarkdown(text);
+                    if (useful) this.contentCache.set(path, useful);
                     if (text.trim()) return true;
                 }
             } catch (e) {}
@@ -206,9 +216,15 @@ class BookReader {
         const content = document.getElementById('chapter-content');
         if (!content) return;
 
+        const requestId = ++this.loadSeq;
+        const cached = this.contentCache.get(this.contentPath(chapterNumber));
+
         try {
-            content.innerHTML = `<div class="loading">${this.t('loading')}</div>`;
+            if (!cached) {
+                content.innerHTML = `<div class="loading">${this.t('loading')}</div>`;
+            }
             const chapterContent = await this.getContent(chapterNumber);
+            if (requestId !== this.loadSeq) return;
             // Portada / HTML embebido: no pasar por el parser de markdown
             content.innerHTML = this.isRawHtml(chapterContent)
                 ? chapterContent
@@ -225,32 +241,23 @@ class BookReader {
         }
     }
 
+    contentPath(chapterNumber, lang = this.lang || 'es') {
+        if (chapterNumber === -2) return `content/${lang}/portada.md`;
+        if (chapterNumber === -1) return `content/${lang}/dedicatoria.md`;
+        if (chapterNumber === 0) return `content/${lang}/introduccion.md`;
+        return `content/${lang}/${chapterNumber}.md`;
+    }
+
     async getContent(chapterNumber) {
         const lang = this.lang || 'es';
 
         // Contenido solo desde content/{lang}/ (DRY: sin duplicados en raíz)
-        if (chapterNumber === -2) {
-            const text = await this.fetchMarkdown(`content/${lang}/portada.md`);
-            if (text) return text;
-            return this.getEmbeddedPortada(lang);
-        }
+        const text = await this.fetchMarkdown(this.contentPath(chapterNumber, lang));
+        if (text) return text;
 
-        if (chapterNumber === -1) {
-            const text = await this.fetchMarkdown(`content/${lang}/dedicatoria.md`);
-            if (text) return text;
-            return this.getEmbeddedDedicatoria(lang);
-        }
-
-        if (chapterNumber === 0) {
-            const text = await this.fetchMarkdown(`content/${lang}/introduccion.md`);
-            if (text) return text;
-            return this.getEmbeddedIntroduction(lang);
-        }
-
-        {
-            const text = await this.fetchMarkdown(`content/${lang}/${chapterNumber}.md`);
-            if (text) return text;
-        }
+        if (chapterNumber === -2) return this.getEmbeddedPortada(lang);
+        if (chapterNumber === -1) return this.getEmbeddedDedicatoria(lang);
+        if (chapterNumber === 0) return this.getEmbeddedIntroduction(lang);
 
         // Contenido embebido (solo español de respaldo)
         if (lang === 'es' && window.BOOK_CONTENT?.chapters?.[chapterNumber]) {
@@ -523,21 +530,87 @@ Para ver o conteúdo completo, instale o Python e execute o servidor:
         return /^\s*</.test(String(text || ''));
     }
 
+    /** Texto usable, o null si está vacío o es un stub de solo título. */
+    usefulMarkdown(text) {
+        if (!text || !String(text).trim()) return null;
+        if (this.isRawHtml(text)) return text;
+        const lines = text.trim().split('\n').filter(l => l.trim());
+        return lines.length > 1 ? text : null;
+    }
+
     /** Carga markdown/HTML desde content/{lang}/…; null si no hay contenido útil. */
     async fetchMarkdown(relativePath) {
         if (!location.protocol.startsWith('http')) return null;
+        if (this.contentCache.has(relativePath)) {
+            return this.contentCache.get(relativePath);
+        }
+        if (this.inflight.has(relativePath)) {
+            return this.inflight.get(relativePath);
+        }
+        const pending = this.loadMarkdown(relativePath);
+        this.inflight.set(relativePath, pending);
+        try {
+            return await pending;
+        } finally {
+            this.inflight.delete(relativePath);
+        }
+    }
+
+    async loadMarkdown(relativePath) {
         try {
             const response = await fetch(this.url(relativePath));
-            if (!response.ok) return null;
-            const text = await response.text();
-            if (!text.trim()) return null;
-            // Portada u HTML embebido
-            if (this.isRawHtml(text)) return text;
-            // Ignorar stubs que solo tienen el título
-            const lines = text.trim().split('\n').filter(l => l.trim());
-            if (lines.length > 1) return text;
-        } catch (e) {}
-        return null;
+            if (!response.ok) {
+                this.contentCache.set(relativePath, null);
+                return null;
+            }
+            const useful = this.usefulMarkdown(await response.text());
+            this.contentCache.set(relativePath, useful);
+            return useful;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    /** Tras la primera página, pide el resto del idioma actual sin bloquear la lectura. */
+    prefetchChapters() {
+        if (!location.protocol.startsWith('http')) return;
+        const token = ++this.prefetchToken;
+        const lang = this.lang || 'es';
+        const nums = [];
+        if (this.hasPortada) nums.push(-2);
+        if (this.hasDedicatoria) nums.push(-1);
+        if (this.hasIntroduction) nums.push(0);
+        for (let i = 1; i <= this.totalChapters; i++) nums.push(i);
+
+        const idx = Math.max(0, nums.indexOf(this.currentChapter));
+        const paths = [];
+        for (let d = 1; d < nums.length; d++) {
+            if (idx + d < nums.length) paths.push(this.contentPath(nums[idx + d], lang));
+            if (idx - d >= 0) paths.push(this.contentPath(nums[idx - d], lang));
+        }
+
+        const start = () => {
+            if (token === this.prefetchToken) this.prefetchQueue(paths, token);
+        };
+        if (typeof requestIdleCallback === 'function') {
+            requestIdleCallback(start, { timeout: 1200 });
+        } else {
+            setTimeout(start, 300);
+        }
+    }
+
+    async prefetchQueue(paths, token) {
+        const concurrency = 3;
+        let cursor = 0;
+        const worker = async () => {
+            while (cursor < paths.length && token === this.prefetchToken) {
+                const path = paths[cursor++];
+                if (this.contentCache.has(path)) continue;
+                await this.fetchMarkdown(path);
+            }
+        };
+        const workers = Math.min(concurrency, paths.length);
+        await Promise.all(Array.from({ length: workers }, () => worker()));
     }
 
     parseMarkdown(text) {
