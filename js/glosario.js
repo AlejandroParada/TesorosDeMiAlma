@@ -253,7 +253,7 @@ class GlosarioManager {
         
         try {
             // Obtener idioma actual
-            const currentLang = window.I18N ? window.I18N.lang : 'es';
+            const currentLang = window.I18N ? window.I18N.lang : 'en';
             
             // Cargar contenido del glosario
             const response = await fetch(`content/${currentLang}/glosario/${term}.md`);

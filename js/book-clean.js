@@ -11,7 +11,7 @@ class BookReader {
         this.hasDedicatoria = true; // Flag para dedicatoria
         this.fontSize = localStorage.getItem('fontSize') || 'normal';
         this.theme = localStorage.getItem('theme') || 'light';
-        this.lang = window.I18N?.lang || 'es';
+        this.lang = window.I18N?.lang || 'en';
         this.sidebarOpen = window.innerWidth > 768;
         this.base = this.resolveBase();
         this.contentCache = new Map();
@@ -68,6 +68,7 @@ class BookReader {
         this.on('sidebar-toggle', 'click', () => this.toggleSidebar());
         this.on('sidebar-close', 'click', () => this.closeSidebar());
         this.setupLanguageMenu();
+        this.setupTts();
 
         document.addEventListener('keydown', (e) => {
             if (e.ctrlKey) {
@@ -108,6 +109,7 @@ class BookReader {
 
     setLanguage(code) {
         if (!window.I18N || !window.I18N.languages.includes(code)) return;
+        this.stopTts();
         this.lang = code;
         window.I18N.lang = code;
         this.applyLanguage();
@@ -117,9 +119,19 @@ class BookReader {
         this.prefetchChapters();
     }
 
+    setupTts() {
+        if (!window.TTS) return;
+        window.TTS.bind(() => this.lang || window.I18N?.lang || 'es');
+    }
+
+    stopTts() {
+        if (window.TTS) window.TTS.stop();
+    }
+
     applyLanguage() {
         if (window.I18N) window.I18N.apply();
         this.updateLangMenuActive();
+        if (window.TTS) window.TTS.updateButton();
     }
 
     updateLangMenuActive() {
@@ -215,6 +227,8 @@ class BookReader {
         if (chapterNumber < minChapter || chapterNumber > this.totalChapters) return;
         const content = document.getElementById('chapter-content');
         if (!content) return;
+
+        this.stopTts();
 
         const requestId = ++this.loadSeq;
         const cached = this.contentCache.get(this.contentPath(chapterNumber));

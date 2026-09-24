@@ -22,6 +22,9 @@ window.I18N = {
             'footer.copyright': '© 2026 Tesoros de Mi Alma. Todos los derechos reservados.',
             'btn.theme': 'Tema',
             'btn.lang': 'Idioma',
+            'btn.speak': 'Leer en voz alta',
+            'btn.speak.stop': 'Detener lectura',
+            'btn.speak.unsupported': 'Lectura en voz alta no disponible en este navegador',
             'btn.font.dec': 'Reducir fuente',
             'btn.font.inc': 'Ampliar fuente',
             'fullscreen.start': 'Toca para comenzar',
@@ -43,6 +46,9 @@ window.I18N = {
             'footer.copyright': '© 2026 Treasures of My Soul. All rights reserved.',
             'btn.theme': 'Theme',
             'btn.lang': 'Language',
+            'btn.speak': 'Read aloud',
+            'btn.speak.stop': 'Stop reading',
+            'btn.speak.unsupported': 'Read aloud is not available in this browser',
             'btn.font.dec': 'Decrease font',
             'btn.font.inc': 'Increase font',
             'fullscreen.start': 'Tap to start',
@@ -64,6 +70,9 @@ window.I18N = {
             'footer.copyright': '© 2026 Tesouros da Minha Alma. Todos os direitos reservados.',
             'btn.theme': 'Tema',
             'btn.lang': 'Idioma',
+            'btn.speak': 'Ler em voz alta',
+            'btn.speak.stop': 'Parar leitura',
+            'btn.speak.unsupported': 'Leitura em voz alta não disponível neste navegador',
             'btn.font.dec': 'Diminuir fonte',
             'btn.font.inc': 'Aumentar fonte',
             'fullscreen.start': 'Toque para começar',
@@ -73,8 +82,24 @@ window.I18N = {
         }
     },
 
+    detectBrowserLang() {
+        const candidates = [
+            ...(navigator.languages || []),
+            navigator.language,
+            navigator.userLanguage
+        ].filter(Boolean);
+
+        for (const raw of candidates) {
+            const primary = String(raw).toLowerCase().split(/[-_]/)[0];
+            if (this.languages.includes(primary)) return primary;
+        }
+        return 'en';
+    },
+
     get lang() {
-        return localStorage.getItem('lang') || 'es';
+        const saved = localStorage.getItem('lang');
+        if (saved && this.languages.includes(saved)) return saved;
+        return this.detectBrowserLang();
     },
 
     set lang(code) {
@@ -85,11 +110,13 @@ window.I18N = {
 
     t(key) {
         return this.strings[this.lang]?.[key]
+            || this.strings.en[key]
             || this.strings.es[key]
             || key;
     },
 
     apply() {
+        document.documentElement.lang = this.lang;
         document.querySelectorAll('[data-i18n]').forEach(el => {
             el.textContent = this.t(el.dataset.i18n);
         });
@@ -97,7 +124,7 @@ window.I18N = {
             el.title = this.t(el.dataset.i18nTitle);
         });
         const btn = document.getElementById('lang-toggle');
-        if (btn) btn.textContent = this.labels[this.lang] || 'ES';
+        if (btn) btn.textContent = this.labels[this.lang] || 'EN';
         document.title = this.t('site.title');
     }
 };

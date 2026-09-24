@@ -131,14 +131,12 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    margin-left: auto;
 }
 
+/* El número de página vive en la barra inferior; no ocupa la superior */
 .nav-center {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 1rem !important;
+    display: none;
 }
 
 .control-btn {
@@ -165,6 +163,18 @@ body {
 .control-btn:disabled {
     opacity: 0.5;
     cursor: not-allowed;
+}
+
+.control-btn.speaking {
+    border-color: var(--primary);
+    background: var(--primary);
+    color: #fff;
+    animation: tts-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes tts-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.75; }
 }
 
 /* Selector de idioma */
@@ -388,22 +398,7 @@ body {
         --sidebar-width: 145px;
     }
 
-    /* Tablet / iPad Pro: sin números arriba, botones a la derecha */
-    .nav-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .nav-center {
-        display: none;
-    }
-
     .nav-controls {
-        margin-left: auto;
-        display: flex;
-        align-items: center;
         gap: 0.35rem;
     }
 }
