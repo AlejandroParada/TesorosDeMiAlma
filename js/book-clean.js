@@ -5,7 +5,7 @@
 class BookReader {
     constructor() {
         this.currentChapter = -2; // Empezar con la portada
-        this.totalChapters = 31;
+        this.totalChapters = 33;
         this.hasIntroduction = true; // Flag para indicar que hay introducción
         this.hasPortada = true; // Flag para portada
         this.hasDedicatoria = true; // Flag para dedicatoria
@@ -186,20 +186,15 @@ class BookReader {
     }
 
     async chapterExists(chapterNumber) {
+        // Fuente canónica ES: content/es/ (sin duplicados en raíz)
         if (location.protocol.startsWith('http')) {
-            const urls = [
-                this.url(`content/es/${chapterNumber}.md`),
-                this.url(`${chapterNumber}.md`)
-            ];
-            for (const url of urls) {
-                try {
-                    const response = await fetch(url, { cache: 'no-store' });
-                    if (response.ok) {
-                        const text = await response.text();
-                        if (text.trim()) return true;
-                    }
-                } catch (e) {}
-            }
+            try {
+                const response = await fetch(this.url(`content/es/${chapterNumber}.md`), { cache: 'no-store' });
+                if (response.ok) {
+                    const text = await response.text();
+                    if (text.trim()) return true;
+                }
+            } catch (e) {}
         }
         return !!(window.BOOK_CONTENT?.chapters?.[chapterNumber]);
     }
@@ -214,7 +209,10 @@ class BookReader {
         try {
             content.innerHTML = `<div class="loading">${this.t('loading')}</div>`;
             const chapterContent = await this.getContent(chapterNumber);
-            content.innerHTML = this.parseMarkdown(chapterContent);
+            // Portada / HTML embebido: no pasar por el parser de markdown
+            content.innerHTML = this.isRawHtml(chapterContent)
+                ? chapterContent
+                : this.parseMarkdown(chapterContent);
             this.currentChapter = chapterNumber;
             this.updateUI();
             this.updateUrl();
@@ -230,94 +228,28 @@ class BookReader {
     async getContent(chapterNumber) {
         const lang = this.lang || 'es';
 
-        // Manejar portada especial
+        // Contenido solo desde content/{lang}/ (DRY: sin duplicados en raíz)
         if (chapterNumber === -2) {
-            if (location.protocol.startsWith('http')) {
-                const fileName = 'portada.md';
-                const urls = [
-                    this.url(`content/${lang}/${fileName}`),
-                    lang === 'es' ? this.url(fileName) : null
-                ].filter(Boolean);
-
-                for (const url of urls) {
-                    try {
-                        const response = await fetch(url);
-                        if (response.ok) {
-                            const text = await response.text();
-                            const lines = text.trim().split('\n').filter(l => l.trim());
-                            if (lines.length > 1) return text;
-                        }
-                    } catch (e) {}
-                }
-            }
+            const text = await this.fetchMarkdown(`content/${lang}/portada.md`);
+            if (text) return text;
             return this.getEmbeddedPortada(lang);
         }
 
-        // Manejar dedicatoria especial
         if (chapterNumber === -1) {
-            if (location.protocol.startsWith('http')) {
-                const fileName = 'dedicatoria.md';
-                const urls = [
-                    this.url(`content/${lang}/${fileName}`),
-                    lang === 'es' ? this.url(fileName) : null
-                ].filter(Boolean);
-
-                for (const url of urls) {
-                    try {
-                        const response = await fetch(url);
-                        if (response.ok) {
-                            const text = await response.text();
-                            const lines = text.trim().split('\n').filter(l => l.trim());
-                            if (lines.length > 1) return text;
-                        }
-                    } catch (e) {}
-                }
-            }
+            const text = await this.fetchMarkdown(`content/${lang}/dedicatoria.md`);
+            if (text) return text;
             return this.getEmbeddedDedicatoria(lang);
         }
 
-        // Manejar introducción especial
         if (chapterNumber === 0) {
-            if (location.protocol.startsWith('http')) {
-                const fileName = 'introduccion.md';
-                const urls = [
-                    this.url(`content/${lang}/${fileName}`),
-                    lang === 'es' ? this.url(fileName) : null
-                ].filter(Boolean);
-
-                for (const url of urls) {
-                    try {
-                        const response = await fetch(url);
-                        if (response.ok) {
-                            const text = await response.text();
-                            const lines = text.trim().split('\n').filter(l => l.trim());
-                            if (lines.length > 1) return text;
-                        }
-                    } catch (e) {}
-                }
-            }
-
-            // Contenido embebido de introducción
+            const text = await this.fetchMarkdown(`content/${lang}/introduccion.md`);
+            if (text) return text;
             return this.getEmbeddedIntroduction(lang);
         }
 
-        if (location.protocol.startsWith('http')) {
-            const urls = [
-                this.url(`content/${lang}/${chapterNumber}.md`),
-                lang === 'es' ? this.url(`${chapterNumber}.md`) : null
-            ].filter(Boolean);
-
-            for (const url of urls) {
-                try {
-                    const response = await fetch(url);
-                    if (response.ok) {
-                        const text = await response.text();
-                        // Ignorar archivos que solo tienen el título (contenido incompleto)
-                        const lines = text.trim().split('\n').filter(l => l.trim());
-                        if (lines.length > 1) return text;
-                    }
-                } catch (e) {}
-            }
+        {
+            const text = await this.fetchMarkdown(`content/${lang}/${chapterNumber}.md`);
+            if (text) return text;
         }
 
         // Contenido embebido (solo español de respaldo)
@@ -586,15 +518,43 @@ Para ver o conteúdo completo, instale o Python e execute o servidor:
         }
     }
 
+    /** True si el contenido ya es HTML (p. ej. portada). */
+    isRawHtml(text) {
+        return /^\s*</.test(String(text || ''));
+    }
+
+    /** Carga markdown/HTML desde content/{lang}/…; null si no hay contenido útil. */
+    async fetchMarkdown(relativePath) {
+        if (!location.protocol.startsWith('http')) return null;
+        try {
+            const response = await fetch(this.url(relativePath));
+            if (!response.ok) return null;
+            const text = await response.text();
+            if (!text.trim()) return null;
+            // Portada u HTML embebido
+            if (this.isRawHtml(text)) return text;
+            // Ignorar stubs que solo tienen el título
+            const lines = text.trim().split('\n').filter(l => l.trim());
+            if (lines.length > 1) return text;
+        } catch (e) {}
+        return null;
+    }
+
     parseMarkdown(text) {
         return text
+            // Links markdown antes de otros transforms (escrituras SUD, etc.)
+            .replace(
+                /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
+                '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
+            )
             .replace(/^# (.*$)/gim, '<h1>$1</h1>')
             .replace(/^## (.*$)/gim, '<h2>$1</h2>')
             .replace(/^### (.*$)/gim, '<h3>$1</h3>')
             .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
             .replace(/\*(.*?)\*/g, '<em>$1</em>')
             .replace(/`([^`]+)`/g, '<code>$1</code>')
-            .replace(/"([^"]+)" \(([^)]+)\)/g, '<blockquote>"$1" <cite>($2)</cite></blockquote>')
+            // Solo citas planas; no tocar si el paréntesis ya es un <a> (links de escrituras)
+            .replace(/"([^"]+)" \(([^)<]+)\)/g, '<blockquote>"$1" <cite>($2)</cite></blockquote>')
             .split('\n\n')
             .map(p => p.trim() ? `<p>${p.replace(/\n/g, '<br>')}</p>` : '')
             .join('');

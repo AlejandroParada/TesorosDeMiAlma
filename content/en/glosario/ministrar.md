@@ -24,12 +24,12 @@ The Church has implemented a formal ministering program where:
 - **Personal inspiration**: Follow the promptings of the Spirit
 
 ## Related scriptures
-> *"And whosoever will be chief among you, let him be your servant"* (Matthew 20:27)
+> *"And whosoever will be chief among you, let him be your servant"* ([Matthew 20:27](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/20?lang=eng&id=p27#p27))
 
-> *"Therefore, strengthen your brethren in all your conversation, in all your prayers, in all your exhortations, and in all your doings"* (Doctrine and Covenants 108:7)
+> *"Therefore, strengthen your brethren in all your conversation, in all your prayers, in all your exhortations, and in all your doings"* ([Doctrine and Covenants 108:7](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/108?lang=eng&id=p7#p7))
 
 ## The Savior's example
-Jesus Christ is the perfect example of ministering. He "went about doing good" (Acts 10:38), healing, comforting, and blessing all without distinction.
+Jesus Christ is the perfect example of ministering. He "went about doing good" ([Acts 10:38](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=eng&id=p38#p38)), healing, comforting, and blessing all without distinction.
 
 ## Blessings of ministering
 - **Personal spiritual growth**: Those who serve draw closer to Christ

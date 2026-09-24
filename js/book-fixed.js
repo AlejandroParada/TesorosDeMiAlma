@@ -390,7 +390,8 @@ class BookReader {
             console.log('🌐 Intentando cargar desde servidor HTTP...');
             
             try {
-                const url = `${chapterNumber}.md`;
+                // Fuente canónica ES: content/es/ (DRY, sin capítulos en la raíz)
+                const url = `content/es/${chapterNumber}.md`;
                 console.log(`📡 Fetching: ${url}`);
                 
                 const response = await fetch(url);
@@ -409,7 +410,7 @@ class BookReader {
                     console.warn(`⚠️ Error HTTP ${response.status} para ${url}`);
                 }
             } catch (error) {
-                console.error(`💥 Error fetching ${chapterNumber}.md:`, error);
+                console.error(`💥 Error fetching content/es/${chapterNumber}.md:`, error);
             }
         } else {
             console.log('📄 Protocolo file://, no se puede usar fetch');
@@ -466,7 +467,7 @@ Este capítulo no está disponible actualmente.
 - Contenido embebido: ${window.BOOK_CONTENT ? 'Disponible' : 'No disponible'}
 
 **Para desarrolladores:**
-Verifique que el archivo \`${chapterNumber}.md\` exista y tenga contenido.`;
+Verifique que el archivo \`content/es/${chapterNumber}.md\` exista y tenga contenido.`;
     }
 
     displayChapter(content, chapterNumber, direction = null) {
@@ -489,7 +490,7 @@ Verifique que el archivo \`${chapterNumber}.md\` exista y tenga contenido.`;
 
 *Este capítulo está en desarrollo.*
 
-El archivo original (\`${chapterNumber}.md\`) contiene solo el título. 
+El archivo original (\`content/es/${chapterNumber}.md\`) contiene solo el título. 
 
 **Navegación:**
 - Use las flechas ◀ ▶ para navegar entre capítulos

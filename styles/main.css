@@ -384,6 +384,20 @@ body {
     border-radius: 0 4px 4px 0;
 }
 
+.chapter-content a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.chapter-content a:hover {
+    opacity: 0.85;
+}
+
+.chapter-content cite a {
+    font-style: normal;
+}
+
 .loading {
     text-align: center;
     padding: var(--spacing-xl);

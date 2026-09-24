@@ -35,9 +35,9 @@ A **blessing** in the context of The Church of Jesus Christ of Latter-day Saints
 - **God's will**: Blessings are fulfilled according to divine will
 
 ## Related scriptures
-> *"Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord"* (James 5:14)
+> *"Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord"* ([James 5:14](https://www.churchofjesuschrist.org/study/scriptures/nt/james/5?lang=eng&id=p14#p14))
 
-> *"And these signs shall follow them that believe; In my name... they shall lay hands on the sick, and they shall recover"* (Mark 16:17-18)
+> *"And these signs shall follow them that believe; In my name... they shall lay hands on the sick, and they shall recover"* ([Mark 16:17-18](https://www.churchofjesuschrist.org/study/scriptures/nt/mark/16?lang=eng&id=p17-p18#p17))
 
 ## Spiritual purpose
 Priesthood blessings:
@@ -46,5 +46,11 @@ Priesthood blessings:
 - Guide in important decisions
 - Manifest God's love for His children
 - Confirm spiritual truths
+
+## Preparation to receive blessings
+- Exercise faith in Jesus Christ
+- Repent of sins
+- Live worthily
+- Seek with a sincere heart
 
 Blessings are manifestations of God's love and His desire to bless His children through restored priesthood authority.

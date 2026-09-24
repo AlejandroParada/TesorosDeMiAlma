@@ -18,7 +18,7 @@ A Sociedade de Socorro é uma das maiores e mais antigas organizações feminina
 
 ## Lema:
 
-"A caridade nunca falha" (1 Coríntios 13:8)
+"A caridade nunca falha" ([1 Coríntios 13:8](https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/13?lang=por&id=p8#p8))
 
 ## Organização:
 

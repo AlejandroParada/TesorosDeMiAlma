@@ -54,9 +54,9 @@ Un **presidente de misión** es un miembro de la Iglesia llamado por las autorid
 - **Sensibilidad pastoral**: Amor genuino por los jóvenes adultos
 
 ## Escrituras relacionadas
-> *"Apacienta mis corderos... Pastorea mis ovejas... Apacienta mis ovejas"* (Juan 21:15-17)
+> *"Apacienta mis corderos... Pastorea mis ovejas... Apacienta mis ovejas"* ([Juan 21:15-17](https://www.churchofjesuschrist.org/study/scriptures/nt/john/21?lang=spa&id=p15-p17#p15))
 
-> *"Y él mismo constituyó a unos, apóstoles; a otros, profetas; a otros, evangelistas; a otros, pastores y maestros, a fin de perfeccionar a los santos para la obra del ministerio"* (Efesios 4:11-12)
+> *"Y él mismo constituyó a unos, apóstoles; a otros, profetas; a otros, evangelistas; a otros, pastores y maestros, a fin de perfeccionar a los santos para la obra del ministerio"* ([Efesios 4:11-12](https://www.churchofjesuschrist.org/study/scriptures/nt/eph/4?lang=spa&id=p11-p12#p11))
 
 ## Impacto y legado
 - **Desarrollo espiritual**: Influye en cientos de misioneros jóvenes

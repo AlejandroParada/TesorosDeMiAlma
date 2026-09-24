@@ -24,12 +24,12 @@ La Iglesia ha implementado un programa formal de ministerio donde:
 - **Inspiración personal**: Seguir las impresiones del Espíritu
 
 ## Escrituras relacionadas
-> *"Y el que quisiere ser el primero entre vosotros será vuestro siervo"* (Mateo 20:27)
+> *"Y el que quisiere ser el primero entre vosotros será vuestro siervo"* ([Mateo 20:27](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/20?lang=spa&id=p27#p27))
 
-> *"Por tanto, fortalece a tus hermanos en todas tus conversaciones, en todas tus oraciones, en todas tus exhortaciones y en todas tus obras"* (Doctrina y Convenios 108:7)
+> *"Por tanto, fortalece a tus hermanos en todas tus conversaciones, en todas tus oraciones, en todas tus exhortaciones y en todas tus obras"* ([Doctrina y Convenios 108:7](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/108?lang=spa&id=p7#p7))
 
 ## El ejemplo del Salvador
-Jesucristo es el ejemplo perfecto de ministerio. Él "anduvo haciendo bienes" (Hechos 10:38), sanando, consolando y bendiciendo a todos sin distinción.
+Jesucristo es el ejemplo perfecto de ministerio. Él "anduvo haciendo bienes" ([Hechos 10:38](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=spa&id=p38#p38)), sanando, consolando y bendiciendo a todos sin distinción.
 
 ## Bendiciones del ministerio
 - **Crecimiento espiritual personal**: Quien sirve se acerca más a Cristo

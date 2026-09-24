@@ -35,9 +35,9 @@ Una **bendición** en el contexto de La Iglesia de Jesucristo de los Santos de l
 - **Voluntad de Dios**: Las bendiciones se cumplen según la voluntad divina
 
 ## Escrituras relacionadas
-> *"¿Está alguno enfermo entre vosotros? Llame a los ancianos de la iglesia, y oren por él, ungiéndole con aceite en el nombre del Señor"* (Santiago 5:14)
+> *"¿Está alguno enfermo entre vosotros? Llame a los ancianos de la iglesia, y oren por él, ungiéndole con aceite en el nombre del Señor"* ([Santiago 5:14](https://www.churchofjesuschrist.org/study/scriptures/nt/james/5?lang=spa&id=p14#p14))
 
-> *"Y estos signos seguirán a los que creen: en mi nombre... sobre los enfermos pondrán sus manos, y sanarán"* (Marcos 16:17-18)
+> *"Y estos signos seguirán a los que creen: en mi nombre... sobre los enfermos pondrán sus manos, y sanarán"* ([Marcos 16:17-18](https://www.churchofjesuschrist.org/study/scriptures/nt/mark/16?lang=spa&id=p17-p18#p17))
 
 ## Propósito espiritual
 Las bendiciones del sacerdocio:

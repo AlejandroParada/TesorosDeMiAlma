@@ -18,7 +18,7 @@ Relief Society is one of the largest and oldest women's organizations in the wor
 
 ## Motto:
 
-"Charity never faileth" (1 Corinthians 13:8)
+"Charity never faileth" ([1 Corinthians 13:8](https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/13?lang=eng&id=p8#p8))
 
 ## Organization:
 

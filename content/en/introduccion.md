@@ -1,8 +1,8 @@
 # Introduction
 
-> **"But whoever drinks the water I give them will never thirst. Indeed, the water I give them will become in them a spring of water welling up to eternal life."** (John 4:14)
+> **"But whoever drinks the water I give them will never thirst. Indeed, the water I give them will become in them a spring of water welling up to eternal life."** ([John 4:14](https://www.churchofjesuschrist.org/study/scriptures/nt/john/4?lang=eng&id=p14#p14))
 
-> **"For where your treasure is, there your heart will be also."** (Matthew 6:21)
+> **"For where your treasure is, there your heart will be also."** ([Matthew 6:21](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/6?lang=eng&id=p21#p21))
 
 Dear reader,
 
@@ -52,4 +52,4 @@ Alejandro Parada Taibo
 
 ---
 
-*"And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives!"* (Doctrine and Covenants 76:22)
+*"And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives!"* ([Doctrine and Covenants 76:22](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76?lang=eng&id=p22#p22))

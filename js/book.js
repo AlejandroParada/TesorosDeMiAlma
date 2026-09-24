@@ -73,9 +73,9 @@ Este capítulo aún no está disponible en modo local.
 Para ver todo el contenido, por favor:
 1. Instala Python desde python.org/downloads
 2. Ejecuta: python server.py
-3. O abre los archivos .md individuales
+3. O abre los archivos .md individuales en content/es/
 
-El contenido completo está disponible en los archivos ${i}.md del proyecto.`;
+El contenido completo está disponible en content/es/${i}.md`;
         }
     }
 
@@ -247,64 +247,31 @@ El contenido completo está disponible en los archivos ${i}.md del proyecto.`;
         const language = window.i18n.getLanguage();
         
         // Manejar introducción especial
+        // DRY: solo content/{lang}/ (sin fallback a raíz)
         if (chapterNumber === 0) {
-            const fileName = 'introduccion.md';
-            
             if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
-                // Intentar cargar desde content/[lang]/
                 try {
-                    const response = await fetch(`content/${language}/${fileName}`);
-                    if (response.ok) {
-                        return await response.text();
-                    }
-                } catch (error) {
-                    console.log(`Introduction not found in ${language}, trying original file`);
-                }
-
-                // Si no existe traducción, intentar cargar el archivo original
-                try {
-                    const response = await fetch(fileName);
-                    if (response.ok) {
-                        return await response.text();
-                    }
+                    const response = await fetch(`content/${language}/introduccion.md`);
+                    if (response.ok) return await response.text();
                 } catch (error) {
                     console.error('Error fetching introduction:', error);
                 }
-                
                 return null;
-            } else {
-                // Modo local: contenido embebido de introducción
-                return this.getEmbeddedIntroduction(language);
             }
+            return this.getEmbeddedIntroduction(language);
         }
-        
-        // Si estamos en un servidor (protocolo http/https), usar fetch
+
         if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
-            // Intentar cargar desde content/[lang]/
             try {
                 const response = await fetch(`content/${language}/${chapterNumber}.md`);
-                if (response.ok) {
-                    return await response.text();
-                }
-            } catch (error) {
-                console.log(`Chapter ${chapterNumber} not found in ${language}, trying original files`);
-            }
-
-            // Si no existe traducción, intentar cargar el archivo original
-            try {
-                const response = await fetch(`${chapterNumber}.md`);
-                if (response.ok) {
-                    return await response.text();
-                }
+                if (response.ok) return await response.text();
             } catch (error) {
                 console.error('Error fetching chapter:', error);
             }
-            
             return null;
-        } else {
-            // Modo local (file://): cargar contenido embebido
-            return this.getEmbeddedContent(chapterNumber, language);
         }
+
+        return this.getEmbeddedContent(chapterNumber, language);
     }
 
     /**

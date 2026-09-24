@@ -44,11 +44,11 @@ Este capítulo aún no está disponible en modo local.
 1. **Instala Python** desde [python.org/downloads](https://python.org/downloads/)
 2. **Marca "Add to PATH"** durante la instalación
 3. **Ejecuta el servidor**: \`python server.py\`
-4. **O abre los archivos**: Los archivos \`${i}.md\` contienen el contenido completo
+4. **O abre los archivos**: Los archivos \`content/es/${i}.md\` contienen el contenido completo
 
 ## Contenido Disponible
 
-El archivo \`${i}.md\` en este proyecto contiene el contenido completo de este capítulo. 
+El archivo \`content/es/${i}.md\` en este proyecto contiene el contenido completo de este capítulo. 
 
 En modo servidor tendrás acceso a:
 - ✅ Todos los capítulos completos

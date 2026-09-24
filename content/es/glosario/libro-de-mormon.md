@@ -26,7 +26,7 @@
 
 ## Promesa de Moroni:
 
-*"Y cuando recibáis estas cosas, quisiera exhortaros a que preguntéis a Dios el Eterno Padre, en el nombre de Cristo, si no son verdaderas estas cosas; y si pedís con un corazón sincero, con verdadera intención, teniendo fe en Cristo, él os manifestará la verdad de ellas por el poder del Espíritu Santo"* (Moroni 10:4).
+*"Y cuando recibáis estas cosas, quisiera exhortaros a que preguntéis a Dios el Eterno Padre, en el nombre de Cristo, si no son verdaderas estas cosas; y si pedís con un corazón sincero, con verdadera intención, teniendo fe en Cristo, él os manifestará la verdad de ellas por el poder del Espíritu Santo"* ([Moroni 10:4](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=spa&id=p4#p4)).
 
 ## Importancia para los miembros:
 

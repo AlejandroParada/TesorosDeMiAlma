@@ -47,11 +47,11 @@ La **revelación** es la comunicación de Dios con Sus hijos a través del Espí
 - Revela verdades del Evangelio
 
 ## Escrituras relacionadas
-> *"Porque mis pensamientos no son vuestros pensamientos, ni vuestros caminos mis caminos, dice Jehová"* (Isaías 55:8)
+> *"Porque mis pensamientos no son vuestros pensamientos, ni vuestros caminos mis caminos, dice Jehová"* ([Isaías 55:8](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/55?lang=spa&id=p8#p8))
 
-> *"Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho"* (Juan 14:26)
+> *"Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho"* ([Juan 14:26](https://www.churchofjesuschrist.org/study/scriptures/nt/john/14?lang=spa&id=p26#p26))
 
-> *"He aquí, yo te digo que debes estudiar en tu mente; entonces has de preguntarme si está bien, y si así fuere, haré que tu pecho arda dentro de ti; por tanto, sentirás que está bien"* (Doctrina y Convenios 9:8)
+> *"He aquí, yo te digo que debes estudiar en tu mente; entonces has de preguntarme si está bien, y si así fuere, haré que tu pecho arda dentro de ti; por tanto, sentirás que está bien"* ([Doctrina y Convenios 9:8](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/9?lang=spa&id=p8#p8))
 
 ## Cómo reconocer la revelación
 

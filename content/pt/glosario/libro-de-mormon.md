@@ -26,7 +26,7 @@
 
 ## Promessa de Morôni:
 
-*"E quando receberdes estas coisas, exorto-vos a perguntardes a Deus, o Pai Eterno, em nome de Cristo, se estas coisas não são verdadeiras; e se perguntardes com um coração sincero, com real intenção, tendo fé em Cristo, ele vos manifestará a verdade delas pelo poder do Espírito Santo"* (Morôni 10:4).
+*"E quando receberdes estas coisas, exorto-vos a perguntardes a Deus, o Pai Eterno, em nome de Cristo, se estas coisas não são verdadeiras; e se perguntardes com um coração sincero, com real intenção, tendo fé em Cristo, ele vos manifestará a verdade delas pelo poder do Espírito Santo"* ([Morôni 10:4](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=por&id=p4#p4)).
 
 ## Importância para os membros:
 

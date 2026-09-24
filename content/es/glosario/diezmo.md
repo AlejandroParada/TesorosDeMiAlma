@@ -10,6 +10,6 @@ En La Iglesia de Jesucristo de los Santos de los Últimos Días, el diezmo se pa
 - El trabajo misional
 - La obra de historia familiar y genealogía
 
-El pago del diezmo es un acto de fe y obediencia que trae bendiciones espirituales y temporales. Como prometió el Señor: *"Probadme ahora en esto... si no os abriré las ventanas de los cielos, y derramaré sobre vosotros bendición hasta que sobreabunde"* (Malaquías 3:10).
+El pago del diezmo es un acto de fe y obediencia que trae bendiciones espirituales y temporales. Como prometió el Señor: *"Probadme ahora en esto... si no os abriré las ventanas de los cielos, y derramaré sobre vosotros bendición hasta que sobreabunde"* ([Malaquías 3:10](https://www.churchofjesuschrist.org/study/scriptures/ot/mal/3?lang=spa&id=p10#p10)).
 
 El diezmo enseña principios de sacrificio, prioridades espirituales y confianza en la providencia divina.

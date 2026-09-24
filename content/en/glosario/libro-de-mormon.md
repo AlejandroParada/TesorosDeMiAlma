@@ -26,7 +26,7 @@
 
 ## Moroni's Promise:
 
-*"And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost"* (Moroni 10:4).
+*"And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost"* ([Moroni 10:4](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng&id=p4#p4)).
 
 ## Importance for members:
 

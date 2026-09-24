@@ -18,7 +18,7 @@ La Sociedad de Socorro es una de las organizaciones de mujeres más grandes y an
 
 ## Lema:
 
-"La caridad nunca deja de ser" (1 Corintios 13:8)
+"La caridad nunca deja de ser" ([1 Corintios 13:8](https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/13?lang=spa&id=p8#p8))
 
 ## Organización:
 

@@ -1,8 +1,8 @@
 # Introducción
 
-> **"Mas el que bebiere del agua que yo le daré, no tendrá sed jamás; sino que el agua que yo le daré será en él una fuente de agua que salte para vida eterna."** (Juan 4:14)
+> **"Mas el que bebiere del agua que yo le daré, no tendrá sed jamás; sino que el agua que yo le daré será en él una fuente de agua que salte para vida eterna."** ([Juan 4:14](https://www.churchofjesuschrist.org/study/scriptures/nt/john/4?lang=spa&id=p14#p14))
 
-> **"Porque donde esté vuestro tesoro, allí estará también vuestro corazón."** (Mateo 6:21)
+> **"Porque donde esté vuestro tesoro, allí estará también vuestro corazón."** ([Mateo 6:21](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/6?lang=spa&id=p21#p21))
 
 Querido lector,
 
@@ -52,4 +52,4 @@ Alejandro Parada Taibo
 
 ---
 
-*"Y ahora, después de los muchos testimonios que se han dado de él, éste es el testimonio, el último de todos, que nosotros damos de él: ¡Que vive!"* (Doctrina y Convenios 76:22)
+*"Y ahora, después de los muchos testimonios que se han dado de él, éste es el testimonio, el último de todos, que nosotros damos de él: ¡Que vive!"* ([Doctrina y Convenios 76:22](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76?lang=spa&id=p22#p22))

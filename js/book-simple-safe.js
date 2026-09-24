@@ -160,7 +160,7 @@ class BookReader {
         // Método 1: Desde servidor HTTP
         if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
             try {
-                const response = await fetch(`${chapterNumber}.md`);
+                const response = await fetch(`content/es/${chapterNumber}.md`);
                 if (response.ok) {
                     const content = await response.text();
                     if (content.trim()) {

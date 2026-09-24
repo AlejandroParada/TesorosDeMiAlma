@@ -24,12 +24,12 @@ A Igreja implementou um programa formal de ministração onde:
 - **Inspiração pessoal**: Seguir as inspirações do Espírito
 
 ## Escrituras relacionadas
-> *"E qualquer que dentre vós quiser ser o primeiro, será servo de todos"* (Marcos 10:44)
+> *"E qualquer que dentre vós quiser ser o primeiro, será servo de todos"* ([Marcos 10:44](https://www.churchofjesuschrist.org/study/scriptures/nt/mark/10?lang=por&id=p44#p44))
 
-> *"Portanto, fortalecei vossos irmãos em todas as vossas conversas, em todas as vossas orações, em todas as vossas exortações e em todas as vossas obras"* (Doutrina e Convênios 108:7)
+> *"Portanto, fortalecei vossos irmãos em todas as vossas conversas, em todas as vossas orações, em todas as vossas exortações e em todas as vossas obras"* ([Doutrina e Convênios 108:7](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/108?lang=por&id=p7#p7))
 
 ## O exemplo do Salvador
-Jesus Cristo é o exemplo perfeito de ministração. Ele "andou fazendo o bem" (Atos 10:38), curando, consolando e abençoando todos sem distinção.
+Jesus Cristo é o exemplo perfeito de ministração. Ele "andou fazendo o bem" ([Atos 10:38](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=por&id=p38#p38)), curando, consolando e abençoando todos sem distinção.
 
 ## Bênçãos da ministração
 - **Crescimento espiritual pessoal**: Quem serve se aproxima mais de Cristo

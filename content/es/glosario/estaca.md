@@ -73,9 +73,9 @@ Una **estaca** es una unidad organizacional geográfica de La Iglesia de Jesucri
 - **Centros de historia familiar**: Recursos genealógicos
 
 ## Escrituras relacionadas
-> *"Y él mismo constituyó a unos, apóstoles; a otros, profetas; a otros, evangelistas; a otros, pastores y maestros, a fin de perfeccionar a los santos para la obra del ministerio"* (Efesios 4:11-12)
+> *"Y él mismo constituyó a unos, apóstoles; a otros, profetas; a otros, evangelistas; a otros, pastores y maestros, a fin de perfeccionar a los santos para la obra del ministerio"* ([Efesios 4:11-12](https://www.churchofjesuschrist.org/study/scriptures/nt/eph/4?lang=spa&id=p11-p12#p11))
 
-> *"Porque donde están dos o tres congregados en mi nombre, allí estoy yo en medio de ellos"* (Mateo 18:20)
+> *"Porque donde están dos o tres congregados en mi nombre, allí estoy yo en medio de ellos"* ([Mateo 18:20](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/18?lang=spa&id=p20#p20))
 
 ## Propósito espiritual
 
@@ -92,6 +92,6 @@ Una **estaca** es una unidad organizacional geográfica de La Iglesia de Jesucri
 - Servicio coordinado en la comunidad
 
 ## Desarrollo histórico
-El sistema de estacas fue establecido por el profeta José Smith como parte de la restauración del Evangelio. El término proviene de Isaías 54:2: "Ensancha el sitio de tu tienda... alarga tus cuerdas, y refuerza tus **estacas**", simbolizando el fortalecimiento y expansión de Sión.
+El sistema de estacas fue establecido por el profeta José Smith como parte de la restauración del Evangelio. El término proviene de [Isaías 54:2](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/54?lang=spa&id=p2#p2): "Ensancha el sitio de tu tienda... alarga tus cuerdas, y refuerza tus **estacas**", simbolizando el fortalecimiento y expansión de Sión.
 
 Las estacas representan el crecimiento y madurez organizacional de la Iglesia, proporcionando estructura estable para el cuidado pastoral y el desarrollo espiritual de los santos en todo el mundo.

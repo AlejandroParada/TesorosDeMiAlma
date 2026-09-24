@@ -76,11 +76,11 @@
 - **Compartir Su amor**: Ministrar a otros con caridad
 
 ## Escrituras relacionadas
-> *"Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna"* (Juan 3:16)
+> *"Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna"* ([Juan 3:16](https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=spa&id=p16#p16))
 
-> *"Jesús le dijo: Yo soy el camino, y la verdad, y la vida; nadie viene al Padre, sino por mí"* (Juan 14:6)
+> *"Jesús le dijo: Yo soy el camino, y la verdad, y la vida; nadie viene al Padre, sino por mí"* ([Juan 14:6](https://www.churchofjesuschrist.org/study/scriptures/nt/john/14?lang=spa&id=p6#p6))
 
-> *"Y he aquí, yo soy la luz y la vida del mundo; y he bebido de aquella copa amarga que el Padre me ha dado"* (3 Nefi 11:11)
+> *"Y he aquí, yo soy la luz y la vida del mundo; y he bebido de aquella copa amarga que el Padre me ha dado"* ([3 Nefi 11:11](https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/11?lang=spa&id=p11#p11))
 
 ## Relación personal con Cristo
 

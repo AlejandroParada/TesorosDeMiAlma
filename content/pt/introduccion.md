@@ -1,8 +1,8 @@
 # Introdução
 
-> **"Mas aquele que beber da água que eu lhe der nunca terá sede, porque a água que eu lhe der se fará nele uma fonte de água a jorrar para a vida eterna."** (João 4:14)
+> **"Mas aquele que beber da água que eu lhe der nunca terá sede, porque a água que eu lhe der se fará nele uma fonte de água a jorrar para a vida eterna."** ([João 4:14](https://www.churchofjesuschrist.org/study/scriptures/nt/john/4?lang=por&id=p14#p14))
 
-> **"Porque onde estiver o vosso tesouro, aí estará também o vosso coração."** (Mateus 6:21)
+> **"Porque onde estiver o vosso tesouro, aí estará também o vosso coração."** ([Mateus 6:21](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/6?lang=por&id=p21#p21))
 
 Caro leitor,
 
@@ -52,4 +52,4 @@ Alejandro Parada Taibo
 
 ---
 
-*"E agora, depois de muitos testemunhos que se deram dele, este é o testemunho, último de todos, que nós damos dele: Que ele vive!"* (Doutrina e Convênios 76:22)
+*"E agora, depois de muitos testemunhos que se deram dele, este é o testemunho, último de todos, que nós damos dele: Que ele vive!"* ([Doutrina e Convênios 76:22](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76?lang=por&id=p22#p22))

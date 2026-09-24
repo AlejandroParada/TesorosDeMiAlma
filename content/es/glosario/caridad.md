@@ -12,7 +12,7 @@ La **caridad** es el amor puro de Cristo. Es el más grande de todos los dones e
 - **Perfecto**: Refleja el amor que Cristo tiene por nosotros
 
 ### **Atributos de la caridad según las escrituras**
-Según 1 Corintios 13:4-8, la caridad:
+Según [1 Corintios 13:4-8](https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/13?lang=spa&id=p4-p8#p4), la caridad:
 - **Es sufrida**: Paciente ante las debilidades de otros
 - **Es benigna**: Amable y bondadosa en todas las circunstancias
 - **No tiene envidia**: No siente celos del éxito de otros
@@ -69,15 +69,15 @@ Según 1 Corintios 13:4-8, la caridad:
 ## Escrituras sobre la caridad
 
 ### **Nuevo Testamento**
-> *"Y ahora permanecen la fe, la esperanza y el amor, estos tres; pero el mayor de ellos es el amor"* (1 Corintios 13:13)
+> *"Y ahora permanecen la fe, la esperanza y el amor, estos tres; pero el mayor de ellos es el amor"* ([1 Corintios 13:13](https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/13?lang=spa&id=p13#p13))
 
 ### **Libro de Mormón**
-> *"Por tanto, amados hermanos míos, ruego al Padre con toda la energía de mi corazón que seáis llenos de este amor que él ha otorgado a todos los que son verdaderos seguidores de su Hijo Jesucristo"* (Moroni 7:48)
+> *"Por tanto, amados hermanos míos, ruego al Padre con toda la energía de mi corazón que seáis llenos de este amor que él ha otorgado a todos los que son verdaderos seguidores de su Hijo Jesucristo"* ([Moroni 7:48](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=spa&id=p48#p48))
 
-> *"Y si no tenéis caridad, no sois nada, porque la caridad nunca deja de ser. Por tanto, allegaos a la caridad, que es mayor que todo, porque todas las cosas han de perecer"* (Moroni 7:46)
+> *"Y si no tenéis caridad, no sois nada, porque la caridad nunca deja de ser. Por tanto, allegaos a la caridad, que es mayor que todo, porque todas las cosas han de perecer"* ([Moroni 7:46](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=spa&id=p46#p46))
 
 ### **Doctrina y Convenios**
-> *"Un mandamiento nuevo os doy: Que os améis unos a otros; como yo os he amado, que también os améis unos a otros"* (D. y C. 59:6)
+> *"Amarás a tu prójimo como a ti mismo"* ([D. y C. 59:6](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/59?lang=spa&id=p6#p6))
 
 ## Importancia eterna de la caridad
 

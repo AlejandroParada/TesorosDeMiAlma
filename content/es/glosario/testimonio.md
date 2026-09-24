@@ -22,7 +22,7 @@ En el contexto de La Iglesia de Jesucristo de los Santos de los Últimos Días, 
 - **Por el Espíritu**: Permitir que el Espíritu Santo confirme las palabras
 
 ## Escrituras relacionadas
-> *"Porque no me avergüenzo del evangelio de Cristo, porque es poder de Dios para salvación"* (Romanos 1:16)
+> *"Porque no me avergüenzo del evangelio de Cristo, porque es poder de Dios para salvación"* ([Romanos 1:16](https://www.churchofjesuschrist.org/study/scriptures/nt/rom/1?lang=spa&id=p16#p16))
 
 ## Importancia en la vida del miembro
 El testimonio es el fundamento de la fe y la fuente de fortaleza espiritual. Es lo que motiva a los miembros a servir, obedecer y compartir el Evangelio con otros.

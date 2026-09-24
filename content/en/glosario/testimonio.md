@@ -22,7 +22,7 @@ In the context of The Church of Jesus Christ of Latter-day Saints, a **testimony
 - **By the Spirit**: Allow the Holy Spirit to confirm the words
 
 ## Related scriptures
-> *"For I am not ashamed of the gospel of Christ: for it is the power of God unto salvation"* (Romans 1:16)
+> *"For I am not ashamed of the gospel of Christ: for it is the power of God unto salvation"* ([Romans 1:16](https://www.churchofjesuschrist.org/study/scriptures/nt/rom/1?lang=eng&id=p16#p16))
 
 ## Importance in a member's life
 Testimony is the foundation of faith and the source of spiritual strength. It is what motivates members to serve, obey, and share the Gospel with others.

@@ -22,7 +22,7 @@ No contexto de A Igreja de Jesus Cristo dos Santos dos Últimos Dias, um **teste
 - **Pelo Espírito**: Permitir que o Espírito Santo confirme as palavras
 
 ## Escrituras relacionadas
-> *"Porque não me envergonho do evangelho de Cristo, pois é o poder de Deus para salvação"* (Romanos 1:16)
+> *"Porque não me envergonho do evangelho de Cristo, pois é o poder de Deus para salvação"* ([Romanos 1:16](https://www.churchofjesuschrist.org/study/scriptures/nt/rom/1?lang=por&id=p16#p16))
 
 ## Importância na vida do membro
 O testemunho é o fundamento da fé e a fonte de força espiritual. É o que motiva os membros a servir, obedecer e compartilhar o Evangelho com outros.

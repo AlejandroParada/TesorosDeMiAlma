@@ -48,7 +48,7 @@ The project is static (HTML/CSS/JS) and is prepared for GitHub Pages:
 In **Settings → Pages → Source**, choose branch `main` and folder `/ (root)`.
 
 ### Note
-Chapters are loaded from `content/es/*.md` (and root `*.md`). With `.nojekyll` GitHub Pages serves them as static files.
+Chapters are loaded from `content/{es,en,pt}/*.md` (single source of truth; no root duplicates). With `.nojekyll` GitHub Pages serves them as static files.
 
 ## 🎮 Controls and Shortcuts
 
@@ -68,20 +68,19 @@ Chapters are loaded from `content/es/*.md` (and root `*.md`). With `.nojekyll` G
 ```
 TesorosDeMiAlma/
 ├── index.html              # Main page
-├── server.py              # Complete web server
-├── start.py               # Simple web server
+├── server.py              # Web server
 ├── styles/
-│   └── main.css           # Main styles
+│   └── simple.css         # Styles
 ├── js/
-│   ├── main.js            # Main JavaScript
-│   ├── book.js            # Book logic
-│   └── i18n.js            # Internationalization system
-├── content/               # Translated content
-│   ├── es/               # Spanish (.md files)
-│   ├── en/               # English (.md files)
-│   └── pt/               # Portuguese (.md files)
-├── assets/               # Resources (images, icons)
-└── *.md                  # Original files in Spanish
+│   ├── book-clean.js      # Book logic (active)
+│   ├── i18n.js            # Internationalization
+│   ├── glosario.js        # Glossary
+│   └── content-data.js    # Offline fallback
+├── content/               # Canonical content (DRY)
+│   ├── es/               # Spanish (base language)
+│   ├── en/               # English
+│   └── pt/               # Portuguese
+└── assets/               # Resources (images, icons)
 ```
 
 ## 🌍 Multilingual Support
@@ -126,9 +125,9 @@ The theme system uses CSS variables. You can customize colors by editing `styles
 ```
 
 ### Content
-- Original files are in the root (`1.md`, `2.md`, etc.)
-- Translations go in `content/[language]/`
-- The system automatically loads the selected language
+- Canonical Spanish source is `content/es/` (`1.md`, `2.md`, `introduccion.md`, etc.)
+- Translations go in `content/en/` and `content/pt/`
+- The system automatically loads the selected language (no root duplicates)
 
 ## 📱 Responsive Design
 
@@ -157,9 +156,9 @@ The theme system uses CSS variables. You can customize colors by editing `styles
 ## 🤝 Contribution
 
 ### Adding Chapters
-1. Create the numbered `.md` file (e.g., `32.md`)
-2. Add it to all language folders
-3. Update `totalChapters` in `js/book.js`
+1. Create the numbered `.md` file in `content/es/` (e.g., `content/es/34.md`)
+2. Add translations in `content/en/` and `content/pt/`
+3. The reader auto-detects new chapters in `content/es/`
 
 ### Translations
 1. Translate content maintaining structure

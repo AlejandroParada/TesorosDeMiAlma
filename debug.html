@@ -36,7 +36,7 @@
                 try {
                     addResult(`🔄 Probando capítulo ${chapterNum}...`, 'info');
                     
-                    const response = await fetch(`${chapterNum}.md`);
+                    const response = await fetch(`content/es/${chapterNum}.md`);
                     
                     if (response.ok) {
                         const content = await response.text();

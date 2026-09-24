@@ -196,7 +196,7 @@ class BookReader {
         // Si tenemos un servidor (protocolo http), intentar cargar desde archivos .md
         if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
             try {
-                const response = await fetch(`${chapterNumber}.md`);
+                const response = await fetch(`content/es/${chapterNumber}.md`);
                 if (response.ok) {
                     return await response.text();
                 }
@@ -215,7 +215,7 @@ class BookReader {
 
 Este capítulo no está disponible.
 
-Los archivos .md originales contienen el contenido completo.`;
+Los archivos en content/es/ contienen el contenido completo.`;
     }
 
     /**
@@ -233,7 +233,7 @@ Los archivos .md originales contienen el contenido completo.`;
 
 *Este capítulo aún está en desarrollo.*
 
-El archivo original (\`${chapterNumber}.md\`) contiene solo el título. El contenido completo se agregará próximamente.
+El archivo original (\`content/es/${chapterNumber}.md\`) contiene solo el título. El contenido completo se agregará próximamente.
 
 ---
 

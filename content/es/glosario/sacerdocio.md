@@ -47,9 +47,9 @@ El **sacerdocio** es la autoridad y el poder eterno de Dios, otorgado a los homb
 5. **Ordenanzas del templo** (investidura, sellamiento)
 
 ## Escrituras relacionadas
-> *"Y te daré las llaves del reino de los cielos; y todo lo que atares en la tierra será atado en los cielos; y todo lo que desatares en la tierra será desatado en los cielos"* (Mateo 16:19)
+> *"Y te daré las llaves del reino de los cielos; y todo lo que atares en la tierra será atado en los cielos; y todo lo que desatares en la tierra será desatado en los cielos"* ([Mateo 16:19](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/16?lang=spa&id=p19#p19))
 
-> *"El cual fue ordenado según el orden de aquel que era sin principio de días ni fin de años, es decir, el Hijo de Dios"* (Alma 13:9)
+> *"El cual fue ordenado según el orden de aquel que era sin principio de días ni fin de años, es decir, el Hijo de Dios"* ([Alma 13:9](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/13?lang=spa&id=p9#p9))
 
 ## Bendiciones del sacerdocio
 - **Para quien lo posee**: Crecimiento espiritual, oportunidades de servir

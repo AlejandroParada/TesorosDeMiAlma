@@ -86,11 +86,11 @@ El **Espíritu Santo** es el tercer miembro de la Trinidad o Divinidad. Es un pe
 - Inspiración para servir
 
 ## Escrituras relacionadas
-> *"Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho"* (Juan 14:26)
+> *"Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho"* ([Juan 14:26](https://www.churchofjesuschrist.org/study/scriptures/nt/john/14?lang=spa&id=p26#p26))
 
-> *"Y cuando llegue el Consolador, a quien yo os enviaré del Padre, el Espíritu de verdad, el cual procede del Padre, él dará testimonio acerca de mí"* (Juan 15:26)
+> *"Y cuando llegue el Consolador, a quien yo os enviaré del Padre, el Espíritu de verdad, el cual procede del Padre, él dará testimonio acerca de mí"* ([Juan 15:26](https://www.churchofjesuschrist.org/study/scriptures/nt/john/15?lang=spa&id=p26#p26))
 
-> *"Porque no habláis vosotros, sino el Espíritu de vuestro Padre que habla en vosotros"* (Mateo 10:20)
+> *"Porque no habláis vosotros, sino el Espíritu de vuestro Padre que habla en vosotros"* ([Mateo 10:20](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/10?lang=spa&id=p20#p20))
 
 ## Cómo mantener Su compañía
 - **Pureza**: Mantener pensamientos y acciones limpios

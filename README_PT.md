@@ -48,7 +48,7 @@ O projeto é estático (HTML/CSS/JS) e está preparado para GitHub Pages:
 Em **Settings → Pages → Source**, escolha o branch `main` e pasta `/ (root)`.
 
 ### Nota
-Os capítulos são carregados de `content/es/*.md` (e raiz `*.md`). Com `.nojekyll` GitHub Pages os serve como arquivos estáticos.
+Os capítulos são carregados de `content/{es,en,pt}/*.md` (fonte única; sem duplicados na raiz). Com `.nojekyll` GitHub Pages os serve como arquivos estáticos.
 
 ## 🎮 Controles e Atalhos
 
@@ -68,20 +68,19 @@ Os capítulos são carregados de `content/es/*.md` (e raiz `*.md`). Com `.nojeky
 ```
 TesorosDeMiAlma/
 ├── index.html              # Página principal
-├── server.py              # Servidor web completo
-├── start.py               # Servidor web simples
+├── server.py              # Servidor web
 ├── styles/
-│   └── main.css           # Estilos principais
+│   └── simple.css         # Estilos
 ├── js/
-│   ├── main.js            # JavaScript principal
-│   ├── book.js            # Lógica do livro
-│   └── i18n.js            # Sistema de internacionalização
-├── content/               # Conteúdo traduzido
-│   ├── es/               # Español (arquivos .md)
-│   ├── en/               # English (arquivos .md)
-│   └── pt/               # Português (arquivos .md)
-├── assets/               # Recursos (imagens, ícones)
-└── *.md                  # Arquivos originais em espanhol
+│   ├── book-clean.js      # Lógica do livro (ativo)
+│   ├── i18n.js            # Internacionalização
+│   ├── glosario.js        # Glossário
+│   └── content-data.js    # Fallback offline
+├── content/               # Conteúdo canônico (DRY)
+│   ├── es/               # Español (idioma base)
+│   ├── en/               # English
+│   └── pt/               # Português
+└── assets/               # Recursos (imagens, ícones)
 ```
 
 ## 🌍 Suporte Multilíngue
@@ -126,9 +125,9 @@ O sistema de temas usa variáveis CSS. Você pode personalizar cores editando `s
 ```
 
 ### Conteúdo
-- Os arquivos originais estão na raiz (`1.md`, `2.md`, etc.)
-- As traduções vão em `content/[idioma]/`
-- O sistema carrega automaticamente o idioma selecionado
+- A fonte canônica em espanhol está em `content/es/` (`1.md`, `2.md`, `introduccion.md`, etc.)
+- As traduções vão em `content/en/` e `content/pt/`
+- O sistema carrega automaticamente o idioma selecionado (sem duplicados na raiz)
 
 ## 📱 Design Responsivo
 
@@ -157,9 +156,9 @@ O sistema de temas usa variáveis CSS. Você pode personalizar cores editando `s
 ## 🤝 Contribuição
 
 ### Adicionar Capítulos
-1. Crie o arquivo `.md` numerado (ex: `32.md`)
-2. Adicione-o a todas as pastas de idiomas
-3. Atualize `totalChapters` em `js/book.js`
+1. Crie o arquivo `.md` numerado em `content/es/` (ex: `content/es/34.md`)
+2. Adicione traduções em `content/en/` e `content/pt/`
+3. O leitor detecta capítulos novos em `content/es/` automaticamente
 
 ### Traduções
 1. Traduza o conteúdo mantendo a estrutura
